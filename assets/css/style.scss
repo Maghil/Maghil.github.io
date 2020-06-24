@@ -2,11 +2,24 @@
 ---
 
 @import "{{ site.theme }}";
-body {
-  //background: #0f0f0f;
-  font-family: sans-serif;
-}
+.outer 
+  display: table
+  position: absolute
+  top: 0
+  left: 0
+  height: 50%
+  width: 100%
 
+
+.middle 
+  display: table-cell
+  vertical-align: middle
+
+.inner 
+  margin-left: auto
+  margin-right: auto
+  width: 20px
+  /*whatever width you want*/
 div.perspective {
   perspective: 600px;
   display : flex;
@@ -20,7 +33,7 @@ div.loader {
   height: 120px;
   top: 150px;
   left: 50%;
-  padding: 3%;
+  padding: 60px;
   background: #0D0208;
   transform-style: preserve-3d;
   transform: translateX(-50%) rotateX(85deg) rotate(-45deg);
