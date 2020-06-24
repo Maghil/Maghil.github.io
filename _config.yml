@@ -1,7 +1,7 @@
 # Site wide configuration
 theme: jekyll-theme-hacker
 exclude: [README.md]
-title: Maghil Vannan M
+title: null
 description: Personal Website
 github: 
     is_project_page: false
