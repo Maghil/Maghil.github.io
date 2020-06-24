@@ -1,11 +1,9 @@
-![](images/Automation Engineer.png)
-
-
-<div class="loader">
-  <div class="item item-1">
-    <div class="lighter"></div>
-    <div class="darker"></div>
-  </div>
+<div = "perspective">
+  <div class="loader">
+    <div class="item item-1">
+      <div class="lighter"></div>
+      <div class="darker"></div>
+    </div>
   <div class="item item-2">
     <div class="lighter"></div>
     <div class="darker"></div>
@@ -102,4 +100,5 @@
     <div class="lighter"></div>
     <div class="darker"></div>
   </div>
+</div>
 </div>
