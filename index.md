@@ -1,4 +1,4 @@
-<div = "perspective">
+<div class = "perspective">
   <div class="loader">
     <div class="item item-1">
       <div class="lighter"></div>
