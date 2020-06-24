@@ -1,6 +1,6 @@
 ![](images/Automation Engineer.png)
 
-
+<div class="fixed">
 <div class="loader">
   <div class="item item-1">
     <div class="lighter"></div>
@@ -102,4 +102,5 @@
     <div class="lighter"></div>
     <div class="darker"></div>
   </div>
+</div>
 </div>
