@@ -2,6 +2,11 @@
 ---
 
 @import "{{ site.theme }}";
+div.fixed {
+  position: fixed;
+  bottom: 0;
+  right:0;
+}
 div.loader {
   position: absolute;
   width: 120px;
