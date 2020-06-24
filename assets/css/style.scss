@@ -18,7 +18,7 @@ div.loader {
   top: 150px;
   left: 50%;
   padding: 3%;
-  background: #080808;
+  background: #0D0208;
   transform-style: preserve-3d;
   transform: translateX(-50%) rotateX(85deg) rotate(-45deg);
 }
@@ -38,12 +38,12 @@ div.loader div.item div.darker {
   height: 12px;
 }
 div.loader div.item div.lighter {
-  background: #5cd65c;
+  background: #00c217;
   transform-origin: 50% 0%;
   transform: translateY(24px) rotateX(-90deg);
 }
 div.loader div.item div.darker {
-  background: #29a329;
+  background: #005c0b;
   transform-origin: 0% 0%;
   transform: rotate(90deg) rotateX(-90deg);
 }
