@@ -1,5 +1,6 @@
 ---
 title : MaghilVannanM
+layout : default
 ---
 <div class="outer">
   <div class="middle">
