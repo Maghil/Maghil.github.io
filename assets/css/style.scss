@@ -9,6 +9,9 @@ body {
 
 div.perspective {
   perspective: 600px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
 }
 
 div.loader {
@@ -38,12 +41,12 @@ div.loader div.item div.darker {
   height: 12px;
 }
 div.loader div.item div.lighter {
-  background: #00c217;
+  background: #008F11;
   transform-origin: 50% 0%;
   transform: translateY(24px) rotateX(-90deg);
 }
 div.loader div.item div.darker {
-  background: #005c0b;
+  background: #003B00;
   transform-origin: 0% 0%;
   transform: rotate(90deg) rotateX(-90deg);
 }
