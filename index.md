@@ -1,3 +1,6 @@
+<div class="outer">
+  <div class="middle">
+    <div class="inner">
 <div class = "perspective">
   <div class="loader">
     <div class="item item-1">
@@ -102,3 +105,6 @@
   </div>
 </div>
 </div>
+      </div>
+    </div>
+  </div>
