@@ -3,6 +3,7 @@
 
 @import "{{ site.theme }}";
 .outer {
+  pointer-events:none;
   display: table;
   position: absolute;
   top: 0;
