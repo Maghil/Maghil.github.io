@@ -16,22 +16,32 @@
   overflow-y: auto; }
 
 .left.col { 
-  width: 158px; } 
+  width: 158px; }
+  
+.horizontal, .middle.col {
+  border-style: dashed;
+  border-color: #b5e853;}
 
+.horizontal{
+  border-top:0px;
+  border-left:0px;
+  border-right:0px;
+  width:inherited;
+  padding-top:20px;
+  padding-bottom:0px;}
+    
 .middle.col {
   width:25px; 
-	height:100%;
-	left:150px;
-	border-style: dashed;
-  border-color: #b5e853;
+  height:100%;
+  left:150px;
   border-top:0px;
   border-left:0px;
   border-bottom:0px; }
 
 .right.col { 
   left: 188px; 
-  width:78.2%; 
-  height:inherit; 
+  width:100%; 
+  height:100%; 
   scrollable:true; }
 
 .header.row { 
@@ -58,7 +68,7 @@
   font-size: 30px; }
 
 li {
-  list-style-image:url("../images/bullet.png") }
+  list-style-image:url("../images/bullet.png"); }
 
 a {
   font-weight:normal;
