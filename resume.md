@@ -3,4 +3,4 @@ title : resume
 ---
 
 <h1>resume.md</h1>
-<img src="{{site.url}}/images/automation_engineer.png">
+<img src="{{site.url}}/images/automation-engineer.png">
