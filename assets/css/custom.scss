@@ -2,18 +2,64 @@
 ---
 
 @import "{{ site.theme }}";
-.row, .col { overflow: hidden; position: absolute; }
+.row, .col { 
+  overflow: hidden; 
+  position: absolute; }
+
 //.row { left: ; right: ; }
 //.col { top: ; bottom: ; }
-.scroll-x { overflow-x: auto; }
-.scroll-y { overflow-y: auto; }
-.left.col { width: 20%; background-color:#0D0208;}
-.right.col { left: 20.8%; width:78.2%; height:inherit;}
-.header.row { height: 75px; line-height: 75px; }
-.body.row { top: 75px; bottom: 50px; }
-.footer.row { height: 50px; line-height: 50px; }
-.flexy{  display: flex; flex-direction: column; font-size:20px }
-.flexy>div {text-align: center;
+
+.scroll-x { 
+  overflow-x: auto; }
+
+.scroll-y { 
+  overflow-y: auto; }
+
+.left.col { 
+  width: 150px; }
+.middle.col {
+  width:25px; 
+	height:100%;
+	left:150px;
+	border-style: dashed;
+  border-color: #b5e853;
+  border-top:0px;
+  border-left:0px;
+  border-bottom:0px; }
+
+.right.col { 
+  left: 188px; 
+  width:78.2%; 
+  height:inherit; 
+  scrollable:true; }
+
+.header.row { 
+  height: 75px; 
+  line-height: 75px; }
+
+.body.row { 
+  top: 75px; 
+  bottom: 50px; }
+
+.footer.row { 
+  height: 50px; 
+  line-height: 50px; }
+
+.flexy{ 
+  display: flex; 
+  flex-direction: column; 
+  font-size:20px }
+
+.flexy>div {  
   line-height: 75px;
-  font-size: 30px;}
-li {list-style-image:url("../images/bullet.png")}
+  font-size: 30px; }
+
+li {
+  list-style-image:url("../images/bullet.png") }
+
+a {
+  font-weight:normal;
+  font-family:Monaco, "Bitstream Vera Sans Mono", "Lucida Console", Terminal, monospace;
+  color:#b5e853;
+  letter-spacing:-0.03em;
+  text-shadow:0 1px 1px rgba(0,0,0,0.1),0 0 5px rgba(181,232,83,0.1),0 0 10px rgba(181,232,83,0.1) }
