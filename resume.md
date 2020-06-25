@@ -1,5 +1,5 @@
 ---
-title:resume
+title : resume
 ---
 
 <h1>resume.md</h1>
