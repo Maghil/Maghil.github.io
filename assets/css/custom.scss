@@ -4,7 +4,7 @@
 @import "{{ site.theme }}";
 .row, .col { 
   overflow: hidden; 
-  position: absolute; }
+  position: fixed; }
 
 //.row { left: ; right: ; }
 //.col { top: ; bottom: ; }
