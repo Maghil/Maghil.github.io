@@ -1,6 +1,7 @@
 ---
 layout : default
 ---
+<h2>index.md</h2>
 <div class="outer">
   <div class="middle">
     <div class="inner">
