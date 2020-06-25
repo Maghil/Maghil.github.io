@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="{{ '/assets/css/custom.css?v=' | append: site.github.build_revision | relative_url }}">
   </head>
-  <body>
+ <body>
     <div class="left col">
     	<div class="flexy">
         <div><li><a href="{{site.baseurl}}/">Home</a></div>
@@ -16,7 +16,13 @@
         <div><li><a href="{{site.baseurl}}/test">Test</a></div>
       </div>
     </div>
+    <div class="middle col">
+    </div>
     <div class="right col">
+    <!--have to decide whether to have a header in layout*/
+    #and have content between header and footer or just content
+    even if we have header we have to edit header properties so line matches with .middle.col--->
+      <header><h1>hello</h1></header>
       {{content}}
     </div>
   </body>
