@@ -13,6 +13,7 @@
 .body.row { top: 75px; bottom: 50px; }
 .footer.row { height: 50px; line-height: 50px; }
 .flexy{  display: flex; flex-direction: column; font-size:20px }
-.flexy>div{text-align: center;
+.flexy>div {text-align: center;
   line-height: 75px;
   font-size: 30px;}
+li {list-style-image:url("../images/bullet.png")}
