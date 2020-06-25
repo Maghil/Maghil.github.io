@@ -1,7 +1,7 @@
 # Site wide configuration
 theme: jekyll-theme-hacker
 exclude: [README.md]
-title: null
+title: Neo
 description: Personal Website
 github: 
     is_project_page: false
