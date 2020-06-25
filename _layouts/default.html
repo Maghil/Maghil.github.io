@@ -1,29 +1,26 @@
-
 <!DOCTYPE html>
 <html lang="{{ site.lang | default: "en-US" }}">
-  <head>
-    <meta charset='utf-8'>
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="{{ '/assets/css/custom.css?v=' | append: site.github.build_revision | relative_url }}">
-  </head>
- <body>
-    <div class="left col">
-    	<div class="flexy">
-        <div><li><a href="{{site.baseurl}}/">Home</a></div>
-        <div><li><a href="{{site.baseurl}}/about">About</a></div>
+	<head>
+		<meta charset='utf-8'>
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" href="{{ '/assets/css/custom.css?v=' | append: site.github.build_revision | relative_url }}">
+	</head>
+	<body>
+		<div class="left col">
+			<div class="flexy">
+				<div><li><a href="{{site.baseurl}}/">Home</a></div>
+				<div><li><a href="{{site.baseurl}}/about">About</a></div>
         <div><li><a href="{{site.baseurl}}/resume">Resume</a></div>
-        <div><li><a href="{{site.baseurl}}/test">Test</a></div>
-      </div>
-    </div>
-    <div class="middle col">
-    </div>
-    <div class="right col">
-    <!--have to decide whether to have a header in layout*/
-    #and have content between header and footer or just content
-    even if we have header we have to edit header properties so line matches with .middle.col--->
-      <header><h1>hello</h1></header>
-      {{content}}
-    </div>
-  </body>
+       	<div><li><a href="{{site.baseurl}}/test">Test</a></div>
+			</div>
+		</div>
+		<div class="middle col"></div>
+		<div class="right col">
+			<div class="horizontal">
+				<h1><li>One/{{page.title| default: neo}}</h1>
+			</div>
+				{{content}}
+		</div>
+	</body>
 </html>
