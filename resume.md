@@ -7,6 +7,6 @@
 	</head>	
 	<body>
     <h1>hello</h1>
-		/*<img src="https://github.com/Maghil/Maghil.github.io/blob/master/images/Automation%20Engineer.png">*/
+		<!---<img src="https://github.com/Maghil/Maghil.github.io/blob/master/images/Automation%20Engineer.png"> --->
 	</body>
 </html>
