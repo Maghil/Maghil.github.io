@@ -6,6 +6,6 @@
     <link rel="stylesheet" href="https://maghil.github.io/assets/css/custom.css?v=1b6eee0339a375662191c0dbae7d475ed993bcc6">
 	</head>	
 	<body>
-		<img src=[a relative link]automation engineer.png>
+		<img src="https://github.com/Maghil/Maghil.github.io/blob/master/images/Automation%20Engineer.png">
 	</body>
 </html>
