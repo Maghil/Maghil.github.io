@@ -1,3 +1,7 @@
+---
+title: rain
+---
+
 <canvas id="c">
 </canvas>
 
