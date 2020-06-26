@@ -37,4 +37,4 @@ function draw()					                                //drawing the characters
 setInterval(draw,10);
 </script>
 
-<!---<audio style="display:none;" controls autoplay=true>   <source src=https://maghil.github.io/sounds/rain.ogg type=audio/ogg>   <source src=https://maghil.github.io/sounds/rain.mp3 type=audio/mpeg> Your browser does not support the audio element. </audio> --->
+<audio style="display:none;" controls autostart=1>   <source src=https://maghil.github.io/sounds/rain.ogg type=audio/ogg>   <source src=https://maghil.github.io/sounds/rain.mp3 type=audio/mpeg> Your browser does not support the audio element. </audio> --->
