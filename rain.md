@@ -35,5 +35,5 @@ function draw()					                                //drawing the characters
   drops[i]++;                                           		            //incrementing Y coordinate		
 	}
 }
-setInterval(draw,);
+setInterval(draw,3000);
 </script>
