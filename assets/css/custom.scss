@@ -2,9 +2,8 @@
 ---
 
 @import "{{ site.theme }}";
-h1,h2,h3,h4,h5,h6,a,body{
-	color:#008F11; 
-	text-shadow:none;}
+body{
+  color:#b5e853 }
 
 .row, .col { 
   overflow: hidden; 
@@ -96,11 +95,3 @@ li {
 
 /* index.md */
 
-/* rain.md */
-/*basic reset
-* {margin: 0; padding: 0;}
-adding a black bg to the body to make things clearer
-body {background: black;}
-canvas {display: block;} */
-
-/* rain.md */
