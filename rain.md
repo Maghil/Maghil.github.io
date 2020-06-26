@@ -22,7 +22,7 @@ for(var x = 0; x < columns; x++)		        //x below is the x coordinate
 					
 function draw()					                                //drawing the characters
 {
-  ctx.fillStyle = "rgba(26, 26, 26, 0.05)";
+  ctx.fillStyle = "rgba(25, 25, 25, 0.05)";
   ctx.fillRect(0, 0, c.width, c.height);                //translucent BG to show trail
   ctx.fillStyle = "#b5e853";                               //green text
   ctx.font = font_size + "px arial";                                                	
@@ -35,5 +35,5 @@ function draw()					                                //drawing the characters
   drops[i]++;                                           		            //incrementing Y coordinate		
 	}
 }
-setInterval(draw,100);
+setInterval(draw,10);
 </script>
