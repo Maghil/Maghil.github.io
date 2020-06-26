@@ -1,13 +1,6 @@
 ---
 title: rain
 ---
-
-<audio controls autostart="true">
-  <source src="{{site.baseurl}}/sounds/rain.ogg" type="audio/ogg">
-  <source src="{{site.baseurl}}/sounds/rain.mp3" type="audio/mpeg">
-Your browser does not support the audio element.
-</audio>
-
 <canvas id="c">
   
 </canvas>
@@ -43,3 +36,9 @@ function draw()					                                //drawing the characters
 }
 setInterval(draw,10);
 </script>
+
+<audio controls autostart="true">
+  <source src="{{site.baseurl}}/sounds/rain.ogg" type="audio/ogg">
+  <source src="{{site.baseurl}}/sounds/rain.mp3" type="audio/mpeg">
+  Your browser does not support the audio element.
+</audio>
