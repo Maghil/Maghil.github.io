@@ -2,6 +2,9 @@
 ---
 
 @import "{{ site.theme }}";
+body {
+color:#b5e853 }
+
 .row, .col { 
   overflow: hidden; 
   position: fixed; }
