@@ -22,6 +22,7 @@ for(var x = 0; x < columns; x++)		        //x below is the x coordinate
 					
 function draw()					                                //drawing the characters
 {
+  ctx.fillStyle = "rgba(0, 0, 0, 0.05)";
   ctx.fillRect(0, 0, c.width, c.height);                //translucent BG to show trail
   ctx.fillStyle = "#008F11";                               //green text
   ctx.font = font_size + "px arial";                                                	
