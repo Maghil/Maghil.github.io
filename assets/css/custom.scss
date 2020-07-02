@@ -91,22 +91,16 @@ footer {
 .foot {
   display : flex;
   }
-
-.copyright {
-  position:absolute;
-  right:0%;
-  }
   
 .logo {
-  width:20px;
-  height:20px;
+  width:35px;
+  height:35px;
   }
 
 @media only screen and (max-width: 600px) {
   .left.col,.middle.col{
     widht:0px;
-    visibility:hidden;
-  }
+    visibility:hidden; }
   
   .right.col{
     width:100%;
@@ -122,13 +116,15 @@ footer {
     font-size:10px; }
 
   .logo {
-    width:10px;
-    height:10px;
-  }
+    width:20px;
+    height:20px; }
+
+    footer {
+    height:20px;
+    padding:0px 0px 5px 0px }
   
   .foot{
-    font-size:6px;
-  }
+    font-size:9px; }
 }
 
 /* index.md */
