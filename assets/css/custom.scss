@@ -48,7 +48,8 @@ footer {
   bottom:0px;
   height:25px;
   border-bottom:0px;
-  padding:25px 0px 10px 20px;}      
+  padding:25px 0px 10px 20px;
+  font-size:12px; }      
 
 .row, .col { 
   overflow: hidden; 
@@ -87,6 +88,20 @@ footer {
   line-height: 75px;
   font-size: 30px; }
 
+.foot {
+  display : flex;
+  }
+
+.copyright {
+  position:absolute;
+  right:0%;
+  }
+  
+.logo {
+  width:20px;
+  height:20px;
+  }
+
 @media only screen and (max-width: 600px) {
   .left.col,.middle.col{
     widht:0px;
@@ -105,6 +120,15 @@ footer {
 
   h2{
     font-size:10px; }
+
+  .logo {
+    width:10px;
+    height:10px;
+  }
+  
+  .foot{
+    font-size:6px;
+  }
 }
 
 /* index.md */
