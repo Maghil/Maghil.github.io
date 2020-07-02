@@ -48,8 +48,8 @@ footer {
   bottom:0px;
   height:25px;
   border-bottom:0px;
-  padding:25px 0px 10px 20px;
-  font-size:12px; }      
+  padding:25px 0px 25px 20px;
+  font-size:12px;}    
 
 .row, .col { 
   overflow: hidden; 
@@ -87,20 +87,28 @@ footer {
   padding-bottom:25px;
   line-height: 75px;
   font-size: 30px; }
-
+  
 .foot {
+  position:fixed;
   display : flex;
-  }
+  flex-direction:row;
+  width:50%;
+  }  
   
 .logo {
   width:35px;
   height:35px;
   }
-
+  
+.copyright{
+  position:fixed;
+  left:calc(100% - 35vw); }
+  
 @media only screen and (max-width: 600px) {
   .left.col,.middle.col{
     widht:0px;
-    visibility:hidden; }
+    visibility:hidden;
+  }
   
   .right.col{
     width:100%;
@@ -110,20 +118,20 @@ footer {
     font-size:10px; }
   
   h1{
-    font-size:15px; }
-
+    font-size:20px; }
+    
   h2{
-    font-size:10px; }
-
+    font-size:15px; }
+  
   .logo {
     width:20px;
     height:20px; }
-
-    footer {
-    height:20px;
-    padding:0px 0px 5px 0px }
   
-  .foot{
+  footer {
+    height:20px;
+    padding:10px 0px 15px 25px }
+    
+  .copyright{
     font-size:9px; }
 }
 
