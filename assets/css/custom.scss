@@ -92,7 +92,8 @@ footer {
   position:fixed;
   display : flex;
   flex-direction:row;
-  width:50%;
+  justify-content: space-between;
+  width:150px;
   }  
   
 .logo {
@@ -107,8 +108,7 @@ footer {
 @media only screen and (max-width: 600px) {
   .left.col,.middle.col{
     widht:0px;
-    visibility:hidden;
-  }
+    visibility:hidden; }
   
   .right.col{
     width:100%;
@@ -129,8 +129,11 @@ footer {
   
   footer {
     height:20px;
-    padding:10px 0px 15px 25px }
-    
+    padding:10px 0px 20px 25px }
+  
+  .foot{
+    width:80px; }  
+  
   .copyright{
     font-size:9px; }
 }
