@@ -27,10 +27,11 @@ title : Maghil Vannan M
 		</div>
 		<div class="middle col"></div>
 		<div class="right col">
-			<div class="horizontal">
-				<h1><li>one/{{page.title| default: site.title}}</h1>
-			</div>
+			<header>
+            			<div><h1><li>one/{{page.title| default: site.title}}</h1></div>
+	            	</header>
 				{{content}}
+			<footer><h2>ended</h2></footer>
 		</div>
 	</body>
 </html>
