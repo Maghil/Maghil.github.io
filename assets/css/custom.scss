@@ -81,8 +81,15 @@ footer {
   display: flex; 
   flex-direction: column;  }
 
-.flexy>div {  
+.flexy {
   padding-left:10px;
+  padding-top:25px; }
+.miniDp {
+  width:150px;
+  height:150px;
+  border-radius:50%;}
+  
+.flexy>div {  
   padding-top:25px;
   padding-bottom:25px;
   line-height: 75px;
