@@ -1,11 +1,9 @@
 ---
 title: rain
 ---
-<div style="height:100%">
-<canvas id="c">
+<canvas id="c" height="85%">
   
 </canvas>
-</div>
 <script>
 var c = document.getElementById("c");
 var ctx = c.getContext("2d");
