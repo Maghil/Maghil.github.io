@@ -129,6 +129,10 @@ footer {
     width:100%;
     left:0px; }   
    
+  .right.col {
+    top:70px;
+    height:calc(100% - 70px);}
+   
   body{
     font-size:10px; }
   
@@ -138,9 +142,13 @@ footer {
   h2{
     font-size:15px; }
   
+  header,footer {
+    padding:20px 0px 0px 20px; }
+    
+  header {
+    height:40px; }
+  
   footer {
-    height:45px;
-    padding:10px 0px 20px 25px;
     font-size:9px;}
   
   .contact{
