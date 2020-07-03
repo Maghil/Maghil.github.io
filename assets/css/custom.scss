@@ -67,22 +67,25 @@ li {
 header,footer {
   width:100%;
   border-left:0px;
-  border-right:0px;}
+  border-right:0px;
+  padding:25px 0px 0px 20px;}
   
 header {
+  overflow:hidden;
   border-top:0px;
   height:60px;
-  padding:25px 0px 0px 20px;}
-       
+  }
+
+/*.footer,.container nested inside .right.col */
 footer {
-  height:25px;
+  height:65px;
   border-bottom:0px;
-  padding:25px 0px 25px 20px;
-  font-size:12px;} 
+  font-size:12px;}
   
 .container{
- padding:25px 0px 0px 20px;}
+ padding:0px 0px 0px 20px;}
  
+/*nested inside .left.col*/ 
 .nav{ 
   display: flex; 
   flex-direction: column;  }
@@ -101,29 +104,28 @@ footer {
   padding-bottom:25px;
   line-height: 75px;
   font-size: 30px; }
+
+/*foot is the container for contact and copyright*/
+.foot,.contact{
+  display : flex;
+  justify-content: space-between; }
   
 .foot {
-  display : flex;
-  flex-direction:row;
-  justify-content: space-between;
-  width:150px;
-  }  
+  width: calc(100% - 50px)}
   
-.logo {
+.contact {
+  width:150px; }  
+  
+.contact>a>img {
   width:35px;
-  height:35px;
-  }
-  
-.copyright{
-  position:fixed;
-  left:calc(100% - 35vw); }
-  
+  height:35px; }
+    
 @media only screen and (max-width: 600px) {
   .left.col,.middle.col{
     widht:0px;
     visibility:hidden; }
   
-  .right.col{
+  .right.col,header{
     width:100%;
     left:0px; }   
    
@@ -136,19 +138,17 @@ footer {
   h2{
     font-size:15px; }
   
-  .logo {
+  footer {
+    height:45px;
+    padding:10px 0px 20px 25px;
+    font-size:9px;}
+  
+  .contact{
+    width:80px; }  
+    
+  .contact>a>img {
     width:20px;
     height:20px; }
-  
-  footer {
-    height:20px;
-    padding:10px 0px 20px 25px }
-  
-  .foot{
-    width:80px; }  
-  
-  .copyright{
-    font-size:9px; }
 }
 
 /* index.md */
