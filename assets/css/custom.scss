@@ -126,10 +126,12 @@ footer {
     visibility:hidden; }
   
   .right.col,header{
+    position:static;
     width:100%;
     left:0px; }   
    
   .right.col {
+    padding:20px 0px 0px 0px;
     top:70px;
     height:calc(100% - 70px);}
    
@@ -143,10 +145,11 @@ footer {
     font-size:15px; }
   
   header,footer {
-    padding:20px 0px 0px 20px; }
+    padding:20px 0px 5px 20px;
+    width:calc(100% - 20px);}
     
   header {
-    height:40px; }
+    height:40px;}
   
   footer {
     font-size:9px;}
