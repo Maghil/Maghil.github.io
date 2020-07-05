@@ -27,7 +27,7 @@ h2{
     
 li {
   line-height:1.4;
-  list-style-image:url("../images/Bigbullet.png")}
+  list-style-image:url="{{site.baseurl}}/images/Bigbullet.png"}
 
 /*row is currently unused*/
 .row, .col,header { 
