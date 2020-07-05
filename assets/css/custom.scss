@@ -27,7 +27,7 @@ h2{
     
 li {
   line-height:1.4;
-  list-style-image:url("{{site.baseurl}}/images/Bigbullet.png") }
+  list-style-image:url("../images/bullet.png")}
 
 /*row is currently unused*/
 .row, .col,header { 
@@ -152,9 +152,6 @@ footer {
   h2{
     font-size:15px; }
   
-  li {
-  list-style-image:url("../images/bullet.png")}
-
   header,footer {
     overflow: hidden;
     padding:20px 0px 5px 20px;
