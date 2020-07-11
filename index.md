@@ -6,4 +6,7 @@
       <div class="author"> ~ Maghil Vannan M</div>
     </div>
   </div>
+  <div>
+    <h1>testing a second div inside flex</h1>
+  </div>
 </div>
