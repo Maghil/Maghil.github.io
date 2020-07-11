@@ -162,8 +162,36 @@ footer {
   
 .contact>a>img {
   width:35px;
-  height:35px; }
-    
+  height:35px; }    
+
+/* index.md */
+.dp {	
+  border-radius: 50%;
+  width:200px;}
+
+.flex-center {
+  display: flex; 
+  flex-direction: column;
+  align-items: center;
+  padding:20px; }
+ 
+.center { 
+  text-align:center; }
+  
+.author {
+  text-align:right;}
+
+.quote {
+  width:250px;
+  margin:auto;
+  margin-top:10px;}
+
+.author {
+  text-align:right;
+  font-size:10px;}
+
+/* index.md */
+
 @media only screen and (max-width: 600px) {
   .left.col,.middle.col{
     display:none;
@@ -246,6 +274,17 @@ footer {
   }
 
  .show {display: block!important;}
+
+/* index.md */
+
+.dp {
+  width:150px; }
+
+.quote {
+  width:200px; }
+
+/* index.md */
+
 }
 
 @media only screen and (min-width: 601px) {
