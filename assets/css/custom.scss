@@ -88,7 +88,7 @@ footer {
   font-size:12px;}
   
 .container{
- padding:0px 0px 0px 20px;}
+ padding:0px 20px 0px 20px;}
  
 /*nested inside .left.col*/ 
 .nav{ 
@@ -203,6 +203,17 @@ footer {
   }
 
  .show {display: block!important;}
+
+/* index.md */
+
+.dp {
+  width:150px; }
+
+.quote {
+  width:200px; }
+
+/* index.md */
+
 }
 
 @media only screen and (min-width: 601px) {
@@ -234,7 +245,6 @@ footer {
   margin-top:10px;}
 
 .author {
-  postion:relative;
   text-align:right;
   font-size:10px;}
 
