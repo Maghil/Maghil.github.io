@@ -24,20 +24,19 @@
 
 .author {
   text-align:right;
-  font-size:10px;}
+  font-size:10px; }
 
-/* index.md */
+.leftside {
+  width:-webkit-fill-available }
+
+.block-head:{
+  background-color : rgba(0,0,0,0.4); }
 
 @media only screen and (max-width: 600px) {
-
-/* index.md */
-
+  
   .dp {
     width:150px; }
 
   .quote {
     width:200px; }
-
-/* index.md */
-
 }

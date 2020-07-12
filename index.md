@@ -6,7 +6,8 @@
       <div class="author"> ~ Maghil Vannan M</div>
     </div>
   </div>
-  <div>
+  <div class="leftside block-head">
     <h1>testing a second div inside flex</h1>
+    <h1>still testing</h1>
   </div>
 </div>
