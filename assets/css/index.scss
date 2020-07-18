@@ -50,10 +50,16 @@
   line-height: 2.1; }
 
 .certifications {
-  margin-top:50px; }
+  margin-top:50px;
+  width: 100%;
+  text-align: center; }
 
 .certificates {
-  display: flex;
+  display: flex; }
+
+.certificate { 
+  width: 350px;
+  background-color: rgba(0,0,0,0.3);
 }
 
 @media only screen and (max-width: 600px) {
