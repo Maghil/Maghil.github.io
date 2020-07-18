@@ -16,6 +16,8 @@
   </div>
   <div class="certifications">
      <h1 class="heading">Certifications</h1>
-     <!---add certificates here --->
+     {% for c in site.data.certificates %}
+       <div>c.title</div>
+     {% endfor %}
   <div>
 </div>
