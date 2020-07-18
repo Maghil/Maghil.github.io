@@ -22,7 +22,7 @@
           <div>{{c.title}}</div>
           <div>{{c.org}}</div>
           <div>Credential ID : {{c.cID}}</div>
-          <div>Credential URL : {{c.URL}}</div>
+          <div>Credential URL : [click]({{c.cURL}})</div>
         </div>
       {% endfor %}
     </div>
