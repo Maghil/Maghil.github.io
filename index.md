@@ -15,9 +15,11 @@
     </div>
   </div>
   <div class="certifications">
-     <h1 class="heading">Certifications</h1>
-     {% for c in site.data.certificates %}
-       <div>{{c.title}}</div>
-     {% endfor %}
+    <h1 class="heading">Certifications</h1>
+    <div class="certificates">
+      {% for c in site.data.certificates %}
+        <div>{{c.title}}</div>
+      {% endfor %}
+    </div>
   <div>
 </div>
