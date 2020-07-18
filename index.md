@@ -17,7 +17,7 @@
   <div class="certifications">
      <h1 class="heading">Certifications</h1>
      {% for c in site.data.certificates %}
-       <div>c.title</div>
+       <div>{{c.title}}</div>
      {% endfor %}
   <div>
 </div>
