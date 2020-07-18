@@ -13,17 +13,5 @@ params:
 
 
 # Enter the following platform usernames if you would like for them to appear on your site.
-owner:
-  name: Ted Laderas
-  avatar:  # filename of a logo image that has been placed into your images directory
-  bio: "This is a sample Jekyll academic website."
-  email: mmaghil2k@gmail.com
-  
-  linkedin: Maghil Vannan #username
-  github: Maghil
 
-# google:
- #   plus: #username
- #   analytics:
- #   verify:
-   # scholar: #id 
+
