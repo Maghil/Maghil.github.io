@@ -2,12 +2,15 @@
   <div class="center" style="width:350px;">
     <img class="dp" src="{{site.baseurl}}/images/harold.jpg">
     <div class="quote">
-      <div style="quote-sub">Developing webpages from scratch is fun</div>
+      <div>Developing webpages from scratch is fun</div>
       <div class="author"> ~ Maghil Vannan M</div>
     </div>
   </div>
   <div class="leftside block-head">
     <h1 class="heading">Maghil Vannan M</h1>
-    <p class="para">Testing is important but why test it manually while you can automate it in cloud.Seasond automation engineer</p>
+    <p class="para">
+      <div>Testing is important so why test it manually while you can automate it in cloud.</div>
+      <div>Seasoned automation engineer</div>
+    </p>
   </div>
 </div>
