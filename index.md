@@ -8,9 +8,14 @@
   </div>
   <div class="leftside block-head">
     <h1 class="heading">Maghil Vannan M</h1>
-    <p class="para">
+    <div class="para flex-column">
       <div>Testing is important so why test it manually while you can automate it in cloud.</div>
       <div>Seasoned automation engineer</div>
-    </p>
+      <div>budding site reliability engineer</div>
+    </div>
   </div>
+  <div class="certifications">
+     <h1 class="heading">Certifications</h1>
+     <!---add certificates here --->
+  <div>
 </div>

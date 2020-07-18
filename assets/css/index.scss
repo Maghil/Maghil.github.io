@@ -1,9 +1,10 @@
 ---
 ---
-
-.flex-center {
+.flex-column{
   display: flex; 
-  flex-direction: column;
+  flex-direction: column; }
+
+.flex-center {  
   align-items: center; }
 
 .dp {	
@@ -45,6 +46,9 @@
   margin: 5px 0px 0px 0px;
   font-size: 20px;
   line-height: 2.1; }
+
+.certifications {
+  margin-top:50px; }
 
 @media only screen and (max-width: 600px) {
   
