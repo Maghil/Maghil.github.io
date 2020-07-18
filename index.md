@@ -20,10 +20,10 @@
       {% for c in site.data.certificates %}
         <div class="certificate">
           <div class="title">{{c.title}}</div>
-          <hr class="seperator">
+          <hr class="seperator"></hr>
           <div>{{c.org}}</div>
           <div>Credential ID : {{c.cID}}</div>
-          <div>Credential URL : <a class="course" href="{{c.cURL}}">click</div>
+          <div>Credential URL : <a class="course" href="{{c.cURL}}">click</a></div>
         </div>
       {% endfor %}
     </div>
