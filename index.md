@@ -21,7 +21,7 @@
         <div class="certificate">
           <div class="title">{{c.title}}</div>
           <hr class="seperator">
-          <div><img class="certificate-img"src="{{site.baseurl}}/images/certificates/{{c.img}}">
+          <div><img class="certificate-img"src="{{site.baseurl}}/images/certificates/{{c.Img}}"></img><div>
           <div>Issuer : {{c.org}}</div>
           <div>Credential ID : {{c.cID}}</div>
           <div>Credential URL : <a class="course" href="{{c.cURL}}">click</a></div>
