@@ -7,7 +7,7 @@
     </div>
   </div>
   <div class="leftside block-head">
-    <h1>Maghil Vannan M</h1>
-    <p>Testing is important but why test it manually while you can automate it in cloud.Seasond automation engineer</p>
+    <h1 class="heading">Maghil Vannan M</h1>
+    <p class="para">Testing is important but why test it manually while you can automate it in cloud.Seasond automation engineer</p>
   </div>
 </div>
