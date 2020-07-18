@@ -18,7 +18,12 @@
     <h1 class="heading">Certifications</h1>
     <div class="certificates">
       {% for c in site.data.certificates %}
-        <div class="certificate">{{c.title}}</div>
+        <div class="certificate">
+          <div>{{c.title}}</div>
+          <div>{{c.org}}</div>
+          <div>Credential ID : {{c.cID}}</div>
+          <div>Credential URL : {{c.URL}}</div>
+        </div>
       {% endfor %}
     </div>
   <div>
