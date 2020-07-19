@@ -56,10 +56,11 @@
 
 .certificates {
   display: flex; 
-  padding-top:10px;
+  flex-wrap: wrap;
   justify-content: space-around;}
 
 .certificate { 
+  margin-top: 40px;
   width: 350px;
   background-color: rgba(0,0,0,0.3);
 }
