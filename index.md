@@ -42,8 +42,8 @@
   <div class="grand-parent">
     <h1 class="heading"> You have to see it for yourself </h1>
     <div class="parent">
-      <div><!---redpill---></div>
-      <div><!---bluepill---></div>
+      <div><img class="pill" src="{{site.baseurl}}/images/red.png"></div>
+      <div><img class="pill" src="{{site.baseurl}}/images/blue.png"></div>
     </div>
   </div>
 </div>
