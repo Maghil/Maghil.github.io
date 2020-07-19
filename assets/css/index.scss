@@ -54,7 +54,7 @@
   width: 100%;
   text-align: center; }
 
-.parent {
+.parent,.pill-parent {
   display: flex; 
   flex-wrap: wrap;
   justify-content: space-around;}
@@ -85,9 +85,20 @@
   text-decoration: none;
 }
 
-.pill {
+.pill-parent {
+  margin-top:60px;
+}
+
+.pill,.pill-child {
   width: 500px;
   height: auto;
+}
+
+.pill-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 
 @media only screen and (max-width: 600px) {
