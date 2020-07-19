@@ -95,10 +95,9 @@
 }
 
 .pill-text {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
+  position: relative;
+  bottom :30%;
+  font-size:50px
 }
 
 @media only screen and (max-width: 600px) {

@@ -42,8 +42,8 @@
   <div class="grand-parent">
     <h1 class="heading"> You have to see it for yourself </h1>
     <div class="pill-parent">      
-      <div class="pill-child"><img class="pill" src="{{site.baseurl}}/images/blue.png"><h1 class="pill-text">Forget</h1></div>
-      <div class="pill-child"><img class="pill" src="{{site.baseurl}}/images/red.png"><h1 class="pill-text">Contact</h1></div>
+      <div class="pill-child"><img onclick="homer()" class="pill" src="{{site.baseurl}}/images/blue.png"><h1 class="pill-text">Forget</h1></div>
+      <div class="pill-child"><a href="{{site.baseurl}}/contact.html"> <img class="pill" src="{{site.baseurl}}/images/red.png"></a><h1 class="pill-text">Contact</h1></div>
     </div>
   </div>
 </div>
