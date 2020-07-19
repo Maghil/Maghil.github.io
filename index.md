@@ -39,4 +39,11 @@
       {% endfor %}
     </div>
   <div>
+  <div class="grand-parent">
+    <h1 class="heading"> You have to see it for yourself </h1>
+    <div class="parent">
+      <div><!---redpill---></div>
+      <div><!---bluepill---></div>
+    </div>
+  </div>
 </div>
