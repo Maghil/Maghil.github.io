@@ -21,14 +21,14 @@ window.onclick = function(event) {
 
 function forget() {
 	var ua = detect.parse(navigator.userAgent);
-	ua = ua.toString().toLowerCase();
+	ua = ua.toLowerCase();
 	if(ua.includes("chrome")){
 		location.replace("https://www.google.com/_/chrome/newtab");
 	}
 	if(ua.includes("opera")){
 		location.replace("about:home");
 	}
-	if(ua.includes("firefox") ||  ua.includes("ie")){
+	if(ua.includes("firefox") ||ua.includes("ie")){
 		location.replace("opera:speeddial");
 	}
 	if(ua.includes("safari")){
