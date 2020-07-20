@@ -27,13 +27,16 @@ function forget() {
 		location.replace("https://www.google.com/_/chrome/newtab");
 	}
 	if(br.includes("opera")){
-		location.replace("about:home");
+		location.replace("opera:speeddial");
 	}
 	if(br.includes("firefox") ||br.includes("ie")){
-		location.replace("opera:speeddial");
+		location.replace("about:home");
 	}
 	if(br.includes("safari")){
 		location.replace("http://livepage.apple.com");
+	}
+	else{
+		window.alert("'Yo,just drop the call'(close the tab)  ~ Morpheus")
 	}
 }
 
