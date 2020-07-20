@@ -18,3 +18,11 @@ window.onclick = function(event) {
 		}
 	}
 }
+
+function forget() {
+	window.open('','_self').close();
+}
+
+function contact(){
+	location.replace("https://maghil.github.io/contact.html")
+}
