@@ -116,8 +116,8 @@ const matrix = [];
 //to calculate the no. of rows and column 
 //specify the size(30) in .column span of matrix.scss 
 let container = document.getElementById('container');
-columns = container.clientWidth/30;
-rows = container.clientHeight/30;
+columns = container.clientWidth/35;
+rows = container.clientHeight/35;
 
 for (let i = 0; i < columns; i++) {
     let column = document.createElement('div');
