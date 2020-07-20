@@ -4,7 +4,7 @@
 #container {
   display: flex;
   height: 500px;
-  width: calc(100% - 5px);
+  width: calc(100% - 20px);
 }
 
 .column {
@@ -14,9 +14,9 @@
   
 .column span {
   display: inline-block;
-  width: 35px;
-  font-size: 35px;
-  line-height: 35px;
+  width: 30px;
+  font-size: 30px;
+  line-height: 30px;
 }
   
 .b {
