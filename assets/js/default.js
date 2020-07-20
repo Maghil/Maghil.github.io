@@ -26,13 +26,13 @@ function forget() {
 	if(br.includes("chrome")){
 		location.replace("https://www.google.com/_/chrome/newtab");
 	}
-	if(br.includes("opera")){
+	else if(br.includes("opera")){
 		location.replace("opera:speeddial");
 	}
-	if(br.includes("firefox") ||br.includes("ie")){
+	else if(br.includes("firefox") ||br.includes("ie")){
 		location.replace("about:home");
 	}
-	if(br.includes("safari")){
+	else if(br.includes("safari")){
 		location.replace("http://livepage.apple.com");
 	}
 	else{
