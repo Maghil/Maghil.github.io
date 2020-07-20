@@ -7,7 +7,6 @@
     </div>
   </div> --->
   <div id='container'></div>
-  <script src="{{site.baseurl}}/assets/js/matrix.js"></script>
   <div class="leftside block-head">
     <h1 class="heading">Maghil Vannan M</h1>
     <div class="para flex-column">
