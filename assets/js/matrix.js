@@ -111,21 +111,22 @@ class MatrixStream {
     }
 }
 
-var d=document.getElementById('container');
-//to calculate the no. of rows and column 
-//specify the size(25) in .column span of matrix.scss
-const columns = d.clientWidth/25;
-const rows = d.clientHeight/25;
-const matrix = [];
+function matrix() {
+    const matrix = [];
+    //to calculate the no. of rows and column 
+    //specify the size(25) in .column span of matrix.scss 
+    let container = document.getElementById('container');
+    columns = container.clientWidth/25;
+    rows = d.clientHeight/25;
 
-let container = document.getElementById('container');
-for (let i = 0; i < columns; i++) {
-    let column = document.createElement('div');
-    column.className = 'column';
-    container.appendChild(column);
-    let matrix = new MatrixStream(column, rows);
+    for (let i = 0; i < columns; i++) {
+        let column = document.createElement('div');
+        column.className = 'column';
+        container.appendChild(column);
+        let matrix = new MatrixStream(column, rows);
 
-    setInterval(function loop() {
-        matrix.tick();
-    }, 100 + Math.random() * 100);
+        setInterval(function loop() {
+            matrix.tick();
+        }, 100 + Math.random() * 100);
+    }
 }

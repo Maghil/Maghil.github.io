@@ -6,8 +6,7 @@
       <div class="author"> ~ Maghil Vannan M</div>
     </div>
   </div> --->
-  <div id='container'>
-  </div>
+  <div onload="matrix()" id='container'></div>
   <div class="leftside block-head">
     <h1 class="heading">Maghil Vannan M</h1>
     <div class="para flex-column">
