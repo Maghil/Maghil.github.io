@@ -1,0 +1,36 @@
+---
+---
+
+#container {
+  display: flex;
+  height: 400px;
+  width: 100%;
+}
+
+.column {
+    display: flex;
+    flex-direction: column-reverse;
+}
+  
+.column span {
+  display: inline-block;
+  width: 25px;
+  font-size: 25px;
+  line-height: 25px;
+}
+  
+.b {
+  /* .bright { */
+  color: white;
+}
+  
+.l {
+  /* .light { */
+  color: #b5e853;
+}
+  
+.d {
+  /* .dark { */
+  color: #151515;
+}
+  

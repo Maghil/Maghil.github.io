@@ -41,5 +41,5 @@ function forget() {
 }
 
 function contact(){
-	location.href="https://maghil.github.io/contact.html";
+	location.href="https://maghil.github.io/contact.md";
 }
