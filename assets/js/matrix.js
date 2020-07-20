@@ -114,17 +114,16 @@ class MatrixStream {
 
 const matrix = [];
 //to calculate the no. of rows and column 
-//specify the size(25) in .column span of matrix.scss 
+//specify the size(30) in .column span of matrix.scss 
 let container = document.getElementById('container');
-columns = container.clientWidth/25;
-rows = container.clientHeight/25;
+columns = container.clientWidth/30;
+rows = container.clientHeight/30;
 
 for (let i = 0; i < columns; i++) {
     let column = document.createElement('div');
     column.className = 'column';
     container.appendChild(column);
     let matrix = new MatrixStream(column, rows);
-
     setInterval(function loop() {
         matrix.tick();
     }, 100 + Math.random() * 100);
