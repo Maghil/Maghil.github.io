@@ -20,9 +20,22 @@ window.onclick = function(event) {
 }
 
 function forget() {
-	window.open('','_self').close();
+	var ua = detect.parse(navigator.userAgent);
+	ua = ua.toLowerCase();
+	if(ua.includes("chrome")){
+		location.replace("https://www.google.com/_/chrome/newtab");
+	}
+	if(ua.includes("opera")){
+		location.replace("about:home");
+	}
+	if(ua.includes("firefox") ||ua.includes("ie")){
+		location.replace("opera:speeddial");
+	}
+	if(ua.includes("safari")){
+		location.replace("http://livepage.apple.com");
+	}
 }
 
 function contact(){
-	location.replace("https://maghil.github.io/contact.html")
+	location.href="https://maghil.github.io/contact.html";
 }

@@ -94,11 +94,16 @@
   height: auto;
 }
 
+.pill{
+  cursor: pointer;
+}
+
 .pill-text {
   position: relative;
   bottom :81px;
   margin:0px;
   font-size:50px
+  pointer-events:none; 
 }
 
 @media only screen and (max-width: 600px) {
