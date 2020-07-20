@@ -114,7 +114,7 @@ class MatrixStream {
 
 const matrix = [];
 //to calculate the no. of rows and column 
-//specify the size(40) in .column span of matrix.scss 
+//specify the size(35) in .column span of matrix.scss 
 let container = document.getElementById('container');
 columns = container.clientWidth/35;
 rows = container.clientHeight/35;
