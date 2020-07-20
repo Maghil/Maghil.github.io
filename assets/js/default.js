@@ -14,24 +14,25 @@ window.onclick = function(event) {
 			var openDropdown = dropdowns[i];
 			if (openDropdown.classList.contains('show')) {
 				openDropdown.classList.remove('show');
-      			}
+      		}
 		}
 	}
 }
 
 function forget() {
 	var ua = detect.parse(navigator.userAgent);
-	ua = ua.toLowerCase();
-	if(ua.includes("chrome")){
+	br = ua.browser.family;
+	br = br.toLowerCase();
+	if(br.includes("chrome")){
 		location.replace("https://www.google.com/_/chrome/newtab");
 	}
-	if(ua.includes("opera")){
+	if(br.includes("opera")){
 		location.replace("about:home");
 	}
-	if(ua.includes("firefox") ||ua.includes("ie")){
+	if(br.includes("firefox") ||br.includes("ie")){
 		location.replace("opera:speeddial");
 	}
-	if(ua.includes("safari")){
+	if(br.includes("safari")){
 		location.replace("http://livepage.apple.com");
 	}
 }
