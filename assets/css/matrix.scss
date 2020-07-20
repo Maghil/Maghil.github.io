@@ -3,8 +3,8 @@
 
 #container {
   display: flex;
-  height: 550px;
-  width: 100%;
+  height: 450px;
+  width: calc(100% - 10px);
 }
 
 .column {
@@ -14,9 +14,9 @@
   
 .column span {
   display: inline-block;
-  width: 35px;
-  font-size: 35px;
-  line-height: 35px;
+  width: 30px;
+  font-size: 30px;
+  line-height: 30px;
 }
   
 .b {
