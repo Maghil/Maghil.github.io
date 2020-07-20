@@ -4,9 +4,9 @@
 #container {
   display: flex;
   overflow: hidden;
-  height: 525px;
-  width: 100%;
-  margin:0px 3px 0 3px;
+  height: 510px;
+  width: calc(100% - 10px);
+  margin:0px 5px 0 5px;
 }
 
 .column {
@@ -16,9 +16,9 @@
   
 .column span {
   display: inline-block;
-  width: 35px;
-  font-size: 35px;
-  line-height: 35px;
+  width: 30px;
+  font-size: 30px;
+  line-height: 30px;
 }
   
 .b {
