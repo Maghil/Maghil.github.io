@@ -19,7 +19,7 @@
     <h1 class="heading">Skills</h1>
     <div class ="parent">
       <img src="{{site.baseurl}}/images/skillChart.png">
-      <h5>Googling is a product of number of task and skill level<h5>
+      <h5>Googling is a product of number of task and skill level</h5>
     </div>
   </div>
   <div class="grand-parent">
