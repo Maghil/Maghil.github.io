@@ -41,6 +41,13 @@
     </div>
   <div>
   <div class="grand-parent">
+    <h1 class="heading">Well do you ?</h1>
+    <div class="parent">
+      <img src="{{site.baseurl}}/images/random.png" alt="a image">
+      <div><h1>still have to add posts</h1></div>    
+    </div>
+  </div>
+  <div class="grand-parent">
     <h1 class="heading"> You have to see it for yourself </h1>
     <div class="pill-parent">      
       <div class="pill-child">
