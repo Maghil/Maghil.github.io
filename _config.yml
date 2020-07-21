@@ -1,17 +1,15 @@
 # Site wide configuration
 theme: jekyll-theme-hacker
-exclude: [README.md]
+exclude: 
+  - README.md
+  - node_modules
 title: neo
 description: Personal Website
 github: 
     is_project_page: false
-url: https://maghil.github.io/
-logo: # filename of a logo image that has been placed into your images directory
 
 params:
   description: "Nothing to see here folks"
 
-
-# Enter the following platform usernames if you would like for them to appear on your site.
 
 

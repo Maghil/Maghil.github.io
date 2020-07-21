@@ -43,3 +43,12 @@ function forget() {
 function contact(){
 	location.href="https://maghil.github.io/contact";
 }
+
+function drop_start() {
+	var d=document.getElementById("myDropdown");
+	d.classList.add('show');
+	function hide(){
+		d.classList.remove('show');
+	} 
+	setTimeout(hide,5000);
+}
