@@ -47,7 +47,6 @@ function contact(){
 	location.href="https://maghil.github.io/contact";
 }
 
-
 //function to drop 	dropdown on load and hide it after a while
 function drop_start() {
 	var d=document.getElementById("myDropdown");
@@ -58,6 +57,17 @@ function drop_start() {
 	setTimeout(hide,5000);
 }
 
+//add thoughts here
+function get_thoughts(rand ){
+	switch(rand+1){
+	case 1 : return("Click the dice for random thoughts"); break;
+	case 2 : return("What's what before knowing what's what"); break;
+	case 3 : return("There is a hidden message in the page");break;
+	case 4 : return("The matrix rain is by Lingjia Liu source : https://codepen.io/mutoo/pen/prqQEL")
+	default : return("brain.exe crashed");
+	}
+}
+
 //function for random thoughts
 function thoughts(){
 	//specify the number of thoughts in max
@@ -66,30 +76,8 @@ function thoughts(){
 	var tht = get_thoughts(rand);
 	var idea = document.getElementById("idea");
 	idea.innerHTML = '';
-	var text = document.createElement("h2");
+	var text = document.createElement("h1");
 	var node = document.createTextNode(tht);
 	text.appendChild(node);
   	idea.appendChild(text);
-}
-
-function initThoughts(){
-	//specify the number of thoughts in max
-	max = 3;
-	rand = Math.floor(Math.random() * Math.floor(max));
-	var tht = get_thoughts(rand);
-	var idea = document.getElementById("idea");
-	var text = document.createElement("h2");
-	var node = document.createTextNode(tht);
-	text.appendChild(node);
-  	idea.appendChild(text);
-}
-
-//add thoughts here
-function get_thoughts(rand ){
-	switch(rand+1){
-	case 1 : return("Click the dice for random thoughts"); break;
-	case 2 : return("What's what before knowing what's what"); break;
-	case 3 : return("There is a hidden message in the page");break;
-	default : return("brain.exe crashed");
-	}
 }

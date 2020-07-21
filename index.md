@@ -56,7 +56,6 @@
         <img onclick="thoughts()" class ="dice" src="{{site.baseurl}}/images/random1.png" alt="dice">
       </div>
       <div class ="random-post center-hor">
-        <h4>click dice for random thoughts</h4>
         <div id="idea" onload="thoughts()">        
         </div>
       </div>    
