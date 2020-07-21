@@ -55,9 +55,10 @@
       <div class="dice-child">
         <img onclick="thoughts()" class ="dice" src="{{site.baseurl}}/images/random1.png" alt="dice">
       </div>
-      <div id="idea" class ="random-post center-hor">
-        <h1>still have to add posts</h1>
-        <div>click dice for random thoughts</div>
+      <div class ="random-post center-hor">
+        <h4>click dice for random thoughts</h4>
+        <div id="idea" onload="thoughts()">        
+        </div>
       </div>    
     </div>
   </div>

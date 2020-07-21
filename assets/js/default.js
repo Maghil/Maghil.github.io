@@ -65,10 +65,23 @@ function thoughts(){
 	rand = Math.floor(Math.random() * Math.floor(max));
 	var tht = get_thoughts(rand);
 	var idea = document.getElementById("idea");
-	var para = document.createElement("<div>");
+	idea.innerHTML = '';
+	var text = document.createElement(h2);
 	var node = document.createTextNode(tht);
-	para.appendChild(node);
-  	idea.appendChild(para);
+	text.appendChild(node);
+  	idea.appendChild(text);
+}
+
+function initThoughts(){
+	//specify the number of thoughts in max
+	max = 3;
+	rand = Math.floor(Math.random() * Math.floor(max));
+	var tht = get_thoughts(rand);
+	var idea = document.getElementById("idea");
+	var text = document.createElement(h2);
+	var node = document.createTextNode(tht);
+	text.appendChild(node);
+  	idea.appendChild(text);
 }
 
 //add thoughts here
