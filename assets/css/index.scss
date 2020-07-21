@@ -90,10 +90,6 @@
   text-decoration: none;
 }
 
-.pill-parent {
-  margin-top:60px;
-}
-
 .pill,.pill-child {
   width: 500px;
   height: auto;
@@ -111,9 +107,14 @@
   pointer-events:none;
 }
 
-.dice {
+.dice,.child {
   width : 300px;
   height: 300px;
+}
+
+.dice:hover {
+  width: 290px;
+  height: 290px;
 }
 
 .random-post{

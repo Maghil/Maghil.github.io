@@ -52,7 +52,9 @@
   <div class="grand-parent">
     <h1 class="heading">Well do you ?</h1>
     <div class="parent-margin">
-      <img class ="dice" src="{{site.baseurl}}/images/random1.png" alt="dice">
+      <div class="dice-child">
+        <img class ="dice" src="{{site.baseurl}}/images/random1.png" alt="dice">
+      </div>
       <div class ="random-post center-hor">
         <h1>still have to add posts</h1>
         <div>click dice for random thoughts</div>
@@ -61,7 +63,7 @@
   </div>
   <div class="grand-parent">
     <h1 class="heading"> You have to see it for yourself </h1>
-    <div class="pill-parent">      
+    <div class="parent-margin">      
       <div class="pill-child">
         <img onclick="forget()" class="pill" src="{{site.baseurl}}/images/blue.png"><h1 class="pill-text">Forget</h1>
       </div>
