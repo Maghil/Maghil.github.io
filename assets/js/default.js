@@ -19,6 +19,8 @@ window.onclick = function(event) {
 	}
 }
 
+
+//function to transfer user to homepage
 function forget() {
 	var ua = detect.parse(navigator.userAgent);
 	br = ua.browser.family;
@@ -40,10 +42,13 @@ function forget() {
 	}
 }
 
+//function to transfer user to contact page
 function contact(){
 	location.href="https://maghil.github.io/contact";
 }
 
+
+//function to drop 	dropdown on load and hide it after a while
 function drop_start() {
 	var d=document.getElementById("myDropdown");
 	d.classList.add('show');
@@ -51,4 +56,27 @@ function drop_start() {
 		d.classList.remove('show');
 	} 
 	setTimeout(hide,5000);
+}
+
+//function for random thoughts
+function thoughts(){
+	//specify the number of thoughts in max
+	max = 3;
+	rand = Math.floor(Math.random() * Math.floor(max));
+	var tht = get_thoughts(rand);
+	var idea = document.getElementById("idea");
+	var para = document.createElement("<div>");
+	var node = document.createTextNode(tht);
+	para.appendChild(node);
+  	idea.appendChild(para);
+}
+
+//add thoughts here
+function get_thoughts(rand ){
+	switch(rand+1){
+	case 1 : return("Click the dice for random thoughts"); break;
+	case 2 : return("What's what before knowing what's what"); break;
+	case 3 : return("There is a hidden message in the page");break;
+	default : return("brain.exe crashed");
+	}
 }

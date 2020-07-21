@@ -53,9 +53,9 @@
     <h1 class="heading">Well do you ?</h1>
     <div class="parent-margin">
       <div class="dice-child">
-        <img class ="dice" src="{{site.baseurl}}/images/random1.png" alt="dice">
+        <img onclick="thoughts()" class ="dice" src="{{site.baseurl}}/images/random1.png" alt="dice">
       </div>
-      <div class ="random-post center-hor">
+      <div id="idea" class ="random-post center-hor">
         <h1>still have to add posts</h1>
         <div>click dice for random thoughts</div>
       </div>    
