@@ -15,10 +15,10 @@
       <div>budding site reliability engineer</div>
     </div>
   </div>
-  <div class="gradnd-parent">
+  <div class="grand-parent">
     <h1 class="heading">Skills</h1>
     <div class ="parent">
-      <img src="{{site.baseurl}}/images/skillChart.png">
+      <img class ="chart" src="{{site.baseurl}}/images/skillChart.png">
       <h5>Googling is a product of number of task and skill level</h5>
     </div>
   </div>
