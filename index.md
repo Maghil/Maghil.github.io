@@ -43,8 +43,8 @@
   <div class="grand-parent">
     <h1 class="heading">Well do you ?</h1>
     <div class="parent">
-      <img src="{{site.baseurl}}/images/random1.png" alt="dice">
-      <div>
+      <img class ="dice" src="{{site.baseurl}}/images/random1.png" alt="dice">
+      <div class ="random-post">
         <h1>still have to add posts</h1>
         <div>click dice for random thoughts</div>
       </div>    
