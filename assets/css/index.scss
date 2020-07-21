@@ -85,11 +85,19 @@
   width: 300px;
   margin-top: 10px;
 }
+
+.certificate-img:hover{
+  width: 290px;
+}
+
 .course{
   color: #53b5e8;
   text-decoration: none;
 }
 
+.course :hover {
+  text-decoration:underline;
+}
 .pill,.pill-child {
   width: 500px;
 }

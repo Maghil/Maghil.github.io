@@ -63,7 +63,7 @@ function get_thoughts(rand ){
 	case 1 : return("Click the dice for random thoughts"); break;
 	case 2 : return("What's what before knowing what's what"); break;
 	case 3 : return("There is a hidden message in the page");break;
-	case 4 : return("The matrix rain is by Lingjia Liu source : https://codepen.io/mutoo/pen/prqQEL")
+	case 4 : return("The matrix rain is by Lingjia Liu source"); break;
 	default : return("brain.exe crashed");
 	}
 }
@@ -71,7 +71,7 @@ function get_thoughts(rand ){
 //function for random thoughts
 function thoughts(){
 	//specify the number of thoughts in max
-	max = 3;
+	max = 4;
 	rand = Math.floor(Math.random() * Math.floor(max));
 	var tht = get_thoughts(rand);
 	var idea = document.getElementById("idea");
