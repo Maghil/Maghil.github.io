@@ -17,9 +17,9 @@
   </div>
   <div class="grand-parent">
     <h1 class="heading">Skills</h1>
-    <div class ="parent">
+    <div class ="parent-margin">
       <img class ="chart" src="{{site.baseurl}}/images/skillChart.png">
-      <h5>Googling is a product of number of task and skill level</h5>
+      <h4>Googling is a product of number of task and skill level</h4>
     </div>
   </div>
   <div class="grand-parent">
@@ -49,7 +49,7 @@
   <div>
   <div class="grand-parent">
     <h1 class="heading">Well do you ?</h1>
-    <div class="parent">
+    <div class="parent-margin">
       <img class ="dice" src="{{site.baseurl}}/images/random1.png" alt="dice">
       <div class ="random-post">
         <h1>still have to add posts</h1>
