@@ -66,7 +66,7 @@ function thoughts(){
 	var tht = get_thoughts(rand);
 	var idea = document.getElementById("idea");
 	idea.innerHTML = '';
-	var text = document.createElement(h2);
+	var text = document.createElement("h2");
 	var node = document.createTextNode(tht);
 	text.appendChild(node);
   	idea.appendChild(text);
