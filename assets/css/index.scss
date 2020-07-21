@@ -118,7 +118,6 @@
 
 .random-post{
   width: 50%;
-  min-height: 350px;
 }
 
 .chart{
@@ -126,6 +125,10 @@
   max-height: 500px;
 }
 
+.center-hor{
+  width: 30%;
+  margin:auto 0;
+}
 @media only screen and (max-width: 600px) {
   
   .dp {

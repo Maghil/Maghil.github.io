@@ -19,7 +19,9 @@
     <h1 class="heading">Skills</h1>
     <div class ="parent-margin">
       <img class ="chart" src="{{site.baseurl}}/images/skillChart.png">
-      <h4>Googling is a product of number of task and skill level</h4>
+      <div class ="center-hor">
+        <h4>Googling is a product of amount of task and skill level</h4>
+      </div>
     </div>
   </div>
   <div class="grand-parent">
@@ -51,7 +53,7 @@
     <h1 class="heading">Well do you ?</h1>
     <div class="parent-margin">
       <img class ="dice" src="{{site.baseurl}}/images/random1.png" alt="dice">
-      <div class ="random-post">
+      <div class ="random-post center-hor">
         <h1>still have to add posts</h1>
         <div>click dice for random thoughts</div>
       </div>    
