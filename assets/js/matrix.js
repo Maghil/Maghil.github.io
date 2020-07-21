@@ -79,7 +79,12 @@ class MatrixStream {
                         case 0:
                             // always update char
                             this.renderNodes[idx].innerText = getRandomChar();
-                            this.renderNodes[idx].className = 'b';
+                            if((new RegExp(/[mMaAgGhHiIlL]/g)).test(this.renderNodes[idx].innerText)){
+                                this.renderNodes[idx].className = 'bl';
+                            }
+                            else{
+                                this.renderNodes[idx].className = 'b';
+                            }
                             break;
 
                         case 1:
