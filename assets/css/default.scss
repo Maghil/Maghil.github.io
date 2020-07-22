@@ -27,7 +27,8 @@ h2{
     
 li {
   line-height:1.4;
-  list-style-image:url("../images/bullet.png")}
+  list-style-image:url("../images/bulletBig.png");
+}
 
 header {
   position:fixed;
@@ -170,5 +171,11 @@ footer {
     
   .contact>a>img {
     width:20px;
-    height:20px; }
+    height:20px; 
+  }
+
+  li{
+    list-style-image:url("../images/bullet.png");
+  }
+
 }
