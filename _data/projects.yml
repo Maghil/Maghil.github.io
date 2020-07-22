@@ -1,9 +1,9 @@
 - title : portfolio
   domain : webpage
-  duration : 2 mon. 
+  duration : 2 months
   pTeam : solo
   pURL : https://maghil.github.io/
-  pImg : automation.jpg
+  pImg : 
 
 - title : Harambe Space Invader
   domain : Gaming (Unity)
@@ -20,8 +20,8 @@
   pImg :
 
 - title : Insauf
-  domain : app(C#,.net,selenium)
-  duration : 5 mon.
+  domain : app(python,selenium)
+  duration : 5 months
   pTeam : solo + 1(UI)
   pURL : https://github.com/Maghil/Harambe-catch
   pImg :

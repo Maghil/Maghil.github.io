@@ -76,7 +76,7 @@ function get_thoughts(rand ){
 	case 4 : return("The matrix rain is by Lingjia Liu");
 	case 5 : return("You can make certificates vibrate");
 	case 6 : return("I never created a webpage before");
-	case 7 : return("One of top 10 website design ~me");
+	case 7 : return("One of top 10 website design ~ me");
 	case 8 : return("Open-source means you should point out source");
 	default : return("brain.exe crashed");
 	}
