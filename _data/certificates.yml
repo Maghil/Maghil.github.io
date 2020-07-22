@@ -2,22 +2,22 @@
   cID : MECNE3NVRZ7T
   org : Coursera 
   cURL : https://www.coursera.org/account/accomplishments/specialization/certificate/MECNE3NVRZ7T
-  Img : automation.jpg
+  cImg : automation.jpg
 
 - title : Crafting Quality Code
   cID : S7VQCUNXQ42M
   org : Coursera 
   cURL : https://www.coursera.org/account/accomplishments/specialization/certificate/S7VQCUNXQ42M
-  Img : QualityCode.jpg
+  cImg : QualityCode.jpg
 
 - title : Principles of Secure Coding
   cID : V2C2666EDQHH
   org : Coursera 
   cURL : https://www.coursera.org/account/accomplishments/specialization/certificate/V2C2666EDQHH
-  Img : SecureCoding.jpg
+  cImg : SecureCoding.jpg
 
 - title : B2 Distinction – Score 160
   cID : 
   org : Cambridge Assessment English 
   cURL : 
-  Img : BEC.jpg
+  cImg : BEC.jpg

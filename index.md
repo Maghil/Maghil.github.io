@@ -27,9 +27,15 @@
   <div class="grand-parent">
     <h1 class="heading">Work done (joules)</h1>
     <div class="parent">
-      {% for p in site.data.certificates %}
+      {% for p in site.data.projects %}
         <div class="child">
-          <div>{{c.ID}}</div>
+          <div class="title">{{p.title}}</div>
+          <hr class="seperator">
+          <div><img class="certificate-img" src="{{site.baseurl}}/images/projects/{{p.pImg}}" alt="Probably I didn't add"></div>
+          <div>Domain : {{p.domain}}</div>
+          <div>Team : {{p.pTeam}}</div>   
+          <div>Duration : {{p.duration}}</div>                 
+          <div>Project URL : <a class="course" href="{{p.pURL}}">click</a></div>
         </div>
       {% endfor %}
     </div>
@@ -41,7 +47,7 @@
         <div class="child">
           <div class="title">{{c.title}}</div>
           <hr class="seperator">
-          <div><a href="{{site.baseurl}}/images/certificates/{{c.Img}}" ><img class="certificate-img" src="{{site.baseurl}}/images/certificates/{{c.Img}}" alt="Probably I didn't add"></a></div>
+          <div><a href="{{site.baseurl}}/images/certificates/{{c.cImg}}" ><img class="certificate-img" src="{{site.baseurl}}/images/certificates/{{c.cImg}}" alt="Probably I didn't add"></a></div>
           <div>Issuer : {{c.org}}</div>
           <div>Credential ID : {{c.cID}}</div>
           <div>Credential URL : <a class="course" href="{{c.cURL}}">click</a></div>

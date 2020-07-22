@@ -1,3 +1,13 @@
+//
+//
+//
+//			You're one step closer to decrypt the message
+//					   Just the wrong source
+//						  Good luck human
+//
+//
+//
+
 /* When the user clicks on the button, 
 toggle between hiding and showing the dropdown content */
 
@@ -60,10 +70,14 @@ function drop_start() {
 //add thoughts here
 function get_thoughts(rand ){
 	switch(rand+1){
-	case 1 : return("Click the dice for random thoughts"); break;
-	case 2 : return("What's what before knowing what's what"); break;
-	case 3 : return("There is a hidden message in the page");break;
-	case 4 : return("The matrix rain is by Lingjia Liu source"); break;
+	case 1 : return("Click the dice for random thoughts");
+	case 2 : return("What's what before knowing what's what");
+	case 3 : return("There is a hidden message in the page")
+	case 4 : return("The matrix rain is by Lingjia Liu");
+	case 5 : return("You can make certificates vibrate");
+	case 6 : return("I never created a webpage before");
+	case 7 : return("One of top 10 website design ~me");
+	case 8 : return("Open-source means you should point out source");
 	default : return("brain.exe crashed");
 	}
 }
@@ -71,7 +85,7 @@ function get_thoughts(rand ){
 //function for random thoughts
 function thoughts(){
 	//specify the number of thoughts in max
-	max = 4;
+	max = 8;
 	rand = Math.floor(Math.random() * Math.floor(max));
 	var tht = get_thoughts(rand);
 	var idea = document.getElementById("idea");
