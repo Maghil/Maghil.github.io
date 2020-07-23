@@ -174,7 +174,7 @@
     height: 100px;
   }
 
-  .pill{
+  .pill,.pill-child{
     width: 100px;
   }
 
@@ -198,5 +198,13 @@
   
   .dice{
     width: 250px;
+  }
+    
+  .child,.parent-margin{
+    margin-top: 25px;
+  }
+
+  .grand-parent{
+    margin-top: 40px;
   }
 }
