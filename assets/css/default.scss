@@ -43,13 +43,11 @@ header,footer {
   border-color: #b5e853;
   box-shadow:0 1px 8px rgba(181,232,83,0.1);
   background:#151515 url("../images/bkg.png") 0 0;
-  width:calc(100% - 25px);
   border-left:0px;
   border-right:0px;
   padding:25px 0px 0px 20px; }
     
 footer {
-  height:65px;
   border-bottom:0px;
   font-size:12px;}
 
@@ -153,15 +151,16 @@ footer {
     font-size:15px; }
   
   header,footer {
-    overflow: hidden;
     padding:20px 0px 5px 20px;
-    width:calc(100% - 20px);}
+  }
     
   header {
-    height:40px;}
+    height:40px;
+  }
   
   footer {
-    font-size:9px;}
+    font-size:9px;
+  }
   
   .btn {
   padding:3px 7px;
