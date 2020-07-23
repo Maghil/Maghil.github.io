@@ -120,12 +120,16 @@ class MatrixStream {
 const matrix = [];
 //to calculate the no. of rows and column 
 //specify the size(30) in .column span of matrix.scss 
+alert("1st");
 let container = document.getElementById('container');
 let span = document.getElementById("init");
-let style =window.getComputedStyle(span);
-columns = container.clientWidth/style.getPropertyValue('width');
-rows = container.clientHeight/style.getPropertyValue('height');
-
+let style = window.getComputedStyle(span);
+size = style.getPropertyValue("font-size")
+columns = container.clientWidth/size;
+rows = container.clientHeight/size;
+alert(style);
+alert(span);
+alert(size);
 for (let i = 0; i < columns; i++) {
     let column = document.createElement('div');
     column.className = 'column';
