@@ -159,7 +159,7 @@
   }
 
   .heading{
-    font-size: 40px;
+    font-size: 30px;
   }
   
   .leftside{
@@ -168,5 +168,35 @@
 
   .para{
     font-size: 15px;
+  }
+
+  .pill-child {
+    height: 100px;
+  }
+
+  .pill{
+    width: 100px;
+  }
+
+  .pill-text {
+    bottom: 0px;
+    font-size: 20px;
+  }
+
+  .child {
+    width: 300px;
+  }
+
+  .certificate-img {
+    width: 250px;
+  }
+
+  .dice,.dice-child{
+    width: 100%;
+    height: 250px;
+  }
+  
+  .dice{
+    width: 250px;
   }
 }
