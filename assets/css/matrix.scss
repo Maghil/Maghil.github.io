@@ -44,10 +44,14 @@
 
 @media only screen and (max-width: 600px) {
 
+  #container {
+    height: 380px;
+  }
+
   .column span {
     width: 20px;
     font-size: 20px;
     line-height: 20px;
   }
-  
+
 }
