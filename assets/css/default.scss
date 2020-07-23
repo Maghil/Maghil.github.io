@@ -20,10 +20,12 @@ h1,h2,h3,h4,h5,h6,a {
   text-shadow:0 1px 1px rgba(0,0,0,0.1),0 0 5px rgba(181,232,83,0.1),0 0 10px rgba(181,232,83,0.1)}
 
 h1,a{
-  font-size : 30px; }
+  font-size : 30px; 
+}
 
 h2{
-  font-size : 20px; }
+  font-size : 20px; 
+}
     
 li {
   line-height:1.4;
@@ -90,7 +92,8 @@ footer {
   text-align:center; }
 
 .container{
- padding:100px 0px 20px 0px;}
+ padding:100px 0px 0px 0px;
+}
  
 /*foot is the container for contact and copyright*/
 .foot,.contact{
@@ -139,17 +142,29 @@ footer {
 
 @media only screen and (max-width: 600px) {   
   body{
-    font-size:10px; }
+    font-size:10px; 
+  }
   
+  h1,h2,h3,h4,h5,h6,a {
+    margin:0;
+  }
+
   a,h1{
-    font-size:20px; }
+    font-size:20px; 
+  }
     
   a {
-    text-decoration:none; }
+    text-decoration:none; 
+  }
     
   h2{
-    font-size:15px; }
+    font-size:15px; 
+  }
   
+  li{
+    list-style-image:url("../images/bullet.png");
+  }
+
   header,footer {
     padding:20px 0px 5px 20px;
   }
@@ -161,20 +176,35 @@ footer {
   footer {
     font-size:9px;
   }
+
+  .container{
+    padding:80px 0px 0px 0px;
+  }
+
+  .heading{
+    font-size: 40px;
+  }
+  
+  .leftside{
+    width: 80%;
+  }
+
+  .para{
+    font-size: 15px;
+  }
   
   .btn {
   padding:3px 7px;
   font-size:9px; }
   
+  //the img container in footer
   .contact{
-    width:80px; }  
-    
+    width:80px; 
+  }  
+  
+  //the imges in footer
   .contact>a>img {
     width:20px;
     height:20px; 
-  }
-
-  li{
-    list-style-image:url("../images/bullet.png");
   }
 }

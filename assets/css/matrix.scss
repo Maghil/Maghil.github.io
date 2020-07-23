@@ -41,3 +41,13 @@
   color: #53b5e8;
   text-shadow: 0 1px 1px rgba(0,0,0,0.1), 0 0 5px rgba(83,181,232,0.1), 0 0 10px rgba(83,181,232,0.1);
 }
+
+@media only screen and (max-width: 600px) {
+
+  .column span {
+    width: 20px;
+    font-size: 20px;
+    line-height: 20px;
+  }
+  
+}
