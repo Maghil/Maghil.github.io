@@ -47,14 +47,18 @@ header,footer {
   background:#151515 url("../images/bkg.png") 0 0;
   border-left:0px;
   border-right:0px;
-  padding:25px 0px 0px 20px; }
+  padding:25px 0px 0px 20px;
+  z-index: 3;
+}
     
 footer {
   border-bottom:0px;
-  font-size:12px;}
+  font-size:12px;
+}
 
 #downloads {
-  padding-top:5px; }
+  padding-top:5px; 
+}
 
 #downloads .btn {
   display:inline-block;
@@ -181,18 +185,7 @@ footer {
     padding:80px 0px 0px 0px;
   }
 
-  .heading{
-    font-size: 40px;
-  }
-  
-  .leftside{
-    width: 80%;
-  }
 
-  .para{
-    font-size: 15px;
-  }
-  
   .btn {
   padding:3px 7px;
   font-size:9px; }

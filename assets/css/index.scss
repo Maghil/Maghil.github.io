@@ -151,8 +151,22 @@
 @media only screen and (max-width: 600px) {
   
   .dp {
-    width:150px; }
+    width:150px; 
+  }
 
   .quote {
-    width:200px; }
+    width:200px; 
+  }
+
+  .heading{
+    font-size: 40px;
+  }
+  
+  .leftside{
+    width: 80%;
+  }
+
+  .para{
+    font-size: 15px;
+  }
 }
