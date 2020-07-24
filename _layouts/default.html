@@ -19,21 +19,25 @@ title : Maghil Vannan M
 		<title>Maghil Vannan M</title>
 		
 	</head>
-	<body onload="drop_start()">		
+
+	<body onload="drop_start()">	
+
 		<header>
 			<div class="dropdown">
   				<h1><li onclick="drop()" class="dropbtn">one/{{page.title| default: site.title}}</li></h1>
-  					<div id="myDropdown" class="dropdown-content">
-    						<div class="item"><a href="{{site.baseurl}}/"><li>one/neo</li></a></div>
-    						<div class="item"><a href="{{site.baseurl}}/resume"><li>one/resume</li></a></div>
-	    					<div class="item"><a href="{{site.baseurl}}/rain"><li>one/rain</li></a></div>
-  					</div>
+  				<div id="myDropdown" class="dropdown-content">
+    				<div class="item"><a href="{{site.baseurl}}/"><li>one/neo</li></a></div>
+    				<div class="item"><a href="{{site.baseurl}}/projects"><li>one/projects</li></a></div>
+	    			<div class="item"><a href="{{site.baseurl}}/certificates"><li>one/certificates</li></a></div>
+  				</div>
 			</div>
 			<div class ="column" ><span id="init"></span></div>
 		</header>	
+
 		<div class="container">
             {{content}}
 		</div>
+
 		<footer>
 			<div class="foot">
 				<div class="contact">
@@ -49,6 +53,7 @@ title : Maghil Vannan M
 				</div>	
 			</div>
 		</footer>
+		
 		<script src="{{site.baseurl}}/assets/js/matrix.js"></script>
 		<script src="{{site.baseurl}}/assets/js/default.js"></script>
 	</body>
