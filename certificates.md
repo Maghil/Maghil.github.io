@@ -12,7 +12,7 @@ layout : default
                 <hr class="seperator">
                 <div>
                     <a href="{{site.baseurl}}/images/certificates/{{c.cImg}}">
-                        <img class="certificate-img" src="{{site.baseurl}}/images/   certificates/{{c.cImg}}" alt="Probably I didn't add">
+                        <img class="certificate-img" src="{{site.baseurl}}/images/certificates/{{c.cImg}}" alt="Probably I didn't add">
                     </a>
                 </div>
                 <div>Issuer : {{c.org}}</div>
