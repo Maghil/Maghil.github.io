@@ -1,3 +1,12 @@
+///
+///
+///       
+///             Matrix rain by Lingjia Liu
+///    source : https://codepen.io/mutoo/pen/prqQEL
+///
+///
+///
+
 const availableChars = "123456780ABCDEFGHIJKLMNOPQRTabcdefghijklmnopqrstuvwxyz";
 
 function getRandomChar() {
@@ -79,7 +88,10 @@ class MatrixStream {
                         case 0:
                             // always update char
                             this.renderNodes[idx].innerText = getRandomChar();
-                            if((new RegExp(/[mMaAgGhHiIlL]/g)).test(this.renderNodes[idx].innerText)){
+                            ///
+                            ///  SqQqUuAaRrEe eEnNiIxX                        
+                            ///
+                            if((new RegExp(/[dDeElLrRsSuUxX]/g)).test(this.renderNodes[idx].innerText)){
                                 this.renderNodes[idx].className = 'bl';
                             }
                             else{
