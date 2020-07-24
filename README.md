@@ -1,6 +1,6 @@
 # Personal website
 
-### Hope I uploaded my free games
+### You can fork it and make changes to the site
 
-### Game under final stages of development
+### Inspired by matrix but contains other movie qutoes too
 
