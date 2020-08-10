@@ -85,7 +85,7 @@ function get_thoughts(rand ){
 window.onload =function(){
 	thoughts();
 }
-
+	
 //function for random thoughts
 function thoughts(){
 	//specify the number of thoughts in max

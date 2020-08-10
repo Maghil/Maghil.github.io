@@ -1,4 +1,4 @@
-<div onload="thoughts()" class="flex-center">
+<div class="flex-center">
   <!---<div class="center" style="width:350px;">
     <img class="dp" src="{{site.baseurl}}/images/harold.jpg">
     <div class="quote">
