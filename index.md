@@ -25,7 +25,9 @@
     </div>
   </div>
   <div class="grand-parent">
-    <h1 class="heading">Work done (joules)</h1>
+    <h1 class="heading">Work done (joules) 
+      <a href="{{site.baseurl}}/projects" class="btn btn-github"><span class="icon"></span>View all</a> 
+    </h1>
     <div class="parent">
       {% for p in site.data.projects %}
         <div class="child">
@@ -41,7 +43,9 @@
     </div>
   </div>
   <div class="grand-parent">
-    <h1 class="heading">Certifications</h1>
+    <h1 class="heading">Certifications  
+      <a href="{{site.baseurl}}/certificates" class="btn btn-github"><span class="icon"></span>View all</a>
+    </h1>
     <div class="parent">
       {% for c in site.data.certificates %}
         <div class="child">
