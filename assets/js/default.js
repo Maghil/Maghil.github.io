@@ -64,7 +64,7 @@ function drop_start() {
 	function hide(){
 		d.classList.remove('show');
 	} 
-	setTimeout(hide,5000);
+	setTimeout(hide,2000);
 }
 
 //add thoughts here
@@ -72,10 +72,10 @@ function get_thoughts(rand ){
 	switch(rand+1){
 	case 1 : return("Click the dice for random thoughts");
 	case 2 : return("What's what before knowing what's what");
-	case 3 : return("There is a hidden message in the page")
+	case 3 : return("There is a hidden message in this page")
 	case 4 : return("The matrix rain is by Lingjia Liu");
 	case 5 : return("You can make certificates vibrate");
-	case 6 : return("I never created a webpage before");
+	case 6 : return("Meh...");
 	case 7 : return("One of top 10 website design ~ me");
 	case 8 : return("Open-source means you should point out source");
 	default : return("brain.exe crashed");
