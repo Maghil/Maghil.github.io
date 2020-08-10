@@ -69,8 +69,8 @@
       <div class="dice-child">
         <img onclick="thoughts()" class ="dice" src="{{site.baseurl}}/images/random1.png" alt="dice">
       </div>
-      <div class ="random-post center-hor">
-        <div id="idea" onload="thoughts()"></div>
+      <div onload="thoughts()" class ="random-post center-hor">
+        <div id="idea"></div>
       </div>
     </div>
   </div>
