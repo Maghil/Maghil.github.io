@@ -1,4 +1,4 @@
-<div class="flex-center">
+<div onload="thoughts()" class="flex-center">
   <!---<div class="center" style="width:350px;">
     <img class="dp" src="{{site.baseurl}}/images/harold.jpg">
     <div class="quote">
@@ -69,7 +69,7 @@
       <div class="dice-child">
         <img onclick="thoughts()" class ="dice" src="{{site.baseurl}}/images/random1.png" alt="dice">
       </div>
-      <div onload="thoughts()" class ="random-post center-hor">
+      <div class ="random-post center-hor">
         <div id="idea"></div>
       </div>
     </div>
