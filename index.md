@@ -34,7 +34,7 @@
           <div class="child">
             <div class="title">{{p.title}}</div>
             <hr class="seperator">
-            <div><img class="certificate-img" src="{{site.baseurl}}/images/projects/{{p.pImg}}" alt="Probably I didn't add"></div>
+            <div><img class="project-img" src="{{site.baseurl}}/images/projects/{{p.pImg}}" alt="Probably I didn't add"></div>
             <div>Domain : {{p.domain}}</div>
             <div>Team : {{p.pTeam}}</div>   
             <div>Duration : {{p.duration}}</div>                 
