@@ -30,7 +30,7 @@
     </h1>
     <div class="parent">
       {% for p in site.data.projects %}
-        {% if {{forloop.index}} < 3 %}
+        {% if {{forloop.index}} < 5 %}  <!-- for loop starts from 1-->
           <div class="child">
             <div class="title">{{p.title}}</div>
             <hr class="seperator">
@@ -50,18 +50,20 @@
     </h1>
     <div class="parent">
       {% for c in site.data.certificates %}
-        <div class="child">
-          <div class="title">{{c.title}}</div>
-          <hr class="seperator">
-          <div>
-            <a href="{{site.baseurl}}/images/certificates/{{c.cImg}}" >
-              <img class="certificate-img" src="{{site.baseurl}}/images/certificates/{{c.cImg}}" alt="Probably I didn't add">
-            </a>
+        {% if {{forloop.index}} < 5 %}
+          <div class="child">
+            <div class="title">{{c.title}}</div>
+            <hr class="seperator">
+            <div>
+              <a href="{{site.baseurl}}/images/certificates/{{c.cImg}}" >
+                <img class="certificate-img" src="{{site.baseurl}}/images/certificates/{{c.cImg}}" alt="Probably I didn't add">
+              </a>
+            </div>
+            <div>Issuer : {{c.org}}</div>
+            <div>Credential ID : {{c.cID}}</div>
+            <div>Credential URL : <a class="course" href="{{c.cURL}}">click</a></div>
           </div>
-          <div>Issuer : {{c.org}}</div>
-          <div>Credential ID : {{c.cID}}</div>
-          <div>Credential URL : <a class="course" href="{{c.cURL}}">click</a></div>
-        </div>
+        {% endif %}
       {% endfor %}
     </div>
   <div>
