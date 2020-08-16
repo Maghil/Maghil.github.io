@@ -147,6 +147,10 @@
   margin:auto 0;
 }
 
+.contact-link{
+  width: 500px;
+}
+
 @media only screen and (max-width: 600px) {
   
   .dp {
@@ -223,5 +227,9 @@
 
   .pill:hover{
     width: 90px;
+  }
+  
+  .contact-link{
+    width: 200px;
   }
 }
