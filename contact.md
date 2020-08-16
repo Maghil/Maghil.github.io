@@ -1,5 +1,5 @@
 ---
-title : resume
+title : contact
 ---
 <!--- uses index.scss --->
 <div class="flex-center">
