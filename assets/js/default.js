@@ -83,6 +83,7 @@ function get_thoughts(rand ){
 }
 
 window.onload =function(){
+	drop_start();
 	thoughts();
 }
 	
