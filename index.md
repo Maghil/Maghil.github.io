@@ -7,12 +7,17 @@
     </div>
   </div> --->
   <div id='container'></div>
-  <div class="leftside block-head">
-    <h1 class="heading">Maghil Vannan M</h1>
-    <div class="para flex-column">
-      <div>Testing is important so why test it manually while you can automate it in cloud.</div>
-      <div>Seasoned automation engineer</div>
-      <div>budding site reliability engineer</div>
+  <div class="intro">
+    <div class="leftside block-head">
+      <h1 class="heading">Maghil Vannan M</h1>
+      <div class="para flex-column">
+        <div>Testing is important so why test it manually while you can automate it in cloud.</div>
+        <div>Seasoned automation engineer</div>
+        <div>budding site reliability engineer</div>
+      </div>
+    </div>
+    </div class="dp-parent">
+      <img class="dp" src="{{site.baseurl}}/images/semiformal.jpg" >
     </div>
   </div>
   <div class="grand-parent">
