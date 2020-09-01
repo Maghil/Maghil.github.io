@@ -17,7 +17,7 @@
         </div>
       </div>
       </div class="dp-parent">
-        <img class="dp" src="{{site.baseurl}}/images/semiformal.jpg" >
+        <img class="dp" src="{{site.baseurl}}/images/semi%20formal.jpg" alt="Probably I didn't add">
       </div>
     </div>
     <div class="grand-parent">
