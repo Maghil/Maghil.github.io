@@ -180,10 +180,16 @@
   .intro{
     flex-direction: column;
     justify-content: initial;
+    margin-top:10px;
   }
 
   .dp {
     width:150px; 
+    height:150px;
+  }
+
+  .dp-parent{
+    order : -1;
   }
 
   .quote {
@@ -199,6 +205,7 @@
   }
   .leftside{
     width: 80%;
+    align-self: start;
   }
 
   .para{
