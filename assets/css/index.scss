@@ -5,6 +5,7 @@
 .intro {
   display: flex;
   width: 100%;
+  justify-content: space-between; ;
 }
 
 .flex-column,.flex-center{
@@ -21,8 +22,7 @@
 }
 
 .dp-parent{
-  margin-right: 20px;
-  width: 20%;
+  margin-right: 100px;
   align-self: flex-end;
 }
 
