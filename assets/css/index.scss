@@ -5,7 +5,8 @@
 .intro {
   display: flex;
   width: 100%;
-  justify-content: space-between; ;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .flex-column,.flex-center{
@@ -22,8 +23,9 @@
 }
 
 .dp-parent{
+  text-align: center;
   margin-right: 100px;
-  align-self: flex-end;
+  flex-grow: 1;
 }
 
 .center { 
@@ -42,8 +44,8 @@
   font-size:13px; }
 
 .leftside {
-  align-self: flex-start;
-  width:40%; }
+  width:40%; 
+}
 
 .block-head{
   background-color : rgba(0,0,0,0.4);
@@ -59,7 +61,7 @@
 
 .para {
   margin: 5px 0px 0px 0px;
-  font-size: 20px;
+  font-size: 30px;
   line-height: 2.1; }
 
 .grand-parent {
