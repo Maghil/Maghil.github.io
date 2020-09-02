@@ -28,19 +28,23 @@
 }
 
 .center { 
-  text-align:center; }
+  text-align:center; 
+}
   
 .author {
-  text-align:right;}
+  text-align:right;
+}
 
 .quote {
   width:340px;
   margin:auto;
-  margin-top:10px;}
+  margin-top:10px;
+}
 
 .author {
   text-align:right;
-  font-size:13px; }
+  font-size:13px; 
+}
 
 .leftside {
   width:40%; 
@@ -49,7 +53,8 @@
 .block-head{
   background-color : rgba(0,0,0,0.4);
   padding:5px 20px 5px 20px;
-  margin:20px 0px 0px 0px; }
+  margin:20px 0px 0px 0px; 
+}
 
 .heading,.heading-intro {
   color: #53b5e8;
@@ -62,7 +67,6 @@
 .heading-intro{
   font-size:80px;
 }
-
 
 .para {
   margin: 5px 0px 0px 0px;
@@ -173,6 +177,11 @@
 
 @media only screen and (max-width: 600px) {
   
+  .intro{
+    flex-direction: column;
+    justify-content: initial;
+  }
+
   .dp {
     width:150px; 
   }
@@ -185,12 +194,15 @@
     font-size: 30px;
   }
   
+  .heading-intro{
+    font-size:45px;
+  }
   .leftside{
     width: 80%;
   }
 
   .para{
-    font-size: 15px;
+    font-size: 20px;
   }
 
   .pill-child {
