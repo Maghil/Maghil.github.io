@@ -1,0 +1,34 @@
+- title : Microsoft Teams joiner
+  domain : Automation
+  duration : 5 days
+  pTeam : solo
+  pURL : https://github.com/Maghil/MicrosoftTeamsAutoJoin
+  pImg : portfolio.jpg
+
+- title : portfolio
+  domain : webpage
+  duration : 2 months
+  pTeam : solo
+  pURL : https://maghil.github.io/
+  pImg : portfolio.jpg
+
+- title : Harambe Space Invader
+  domain : Gaming (Unity)
+  duration : 5 days
+  pTeam : solo
+  pURL : https://github.com/Maghil/Harambe-Space-Invader
+  pImg : HarambeShooter.jpg
+
+- title : Harambe Catch
+  domain : Gaming (Unity)
+  duration : 5 days
+  pTeam : solo
+  pURL : https://github.com/Maghil/Harambe-catch
+  pImg : HarambeCatch.jpg
+
+- title : Insauf
+  domain : app(python,selenium)
+  duration : 5 months
+  pTeam : solo + 1(UI)
+  pURL : https://github.com/Maghil/Insauf
+  pImg : insauf.jpg
