@@ -30,9 +30,10 @@
       </div>
     </div>
     <div class="grand-parent">
-      <h1 class="heading">Work done (joules) 
-        <a href="{{site.baseurl}}/projects" class="btn btn-github"><span class="icon"></span>View all</a> 
-      </h1>
+      <div class="flex-changer heading">
+       <div>Work done(joules)</div>
+       <div><a href="{{site.baseurl}}/projects" class="btn btn-github">View all</a></div>
+      </div>
       <div class="parent">
         {% for p in site.data.projects %}
           {% if {{forloop.index}} < 5 %}  <!-- for loop starts from 1-->
@@ -50,9 +51,10 @@
       </div>
     </div>
     <div class="grand-parent">
-      <h1 class="heading">Certifications  
-        <a href="{{site.baseurl}}/certificates" class="btn btn-github"><span class="icon"></span>View all</a>
-      </h1>
+    <div class="flex-changer heading">
+       <div>Certifications</div>
+       <div><a href="{{site.baseurl}}/certificates" class="btn btn-github">View all</a></div>
+    </div> 
       <div class="parent">
         {% for c in site.data.certificates %}
           {% if {{forloop.index}} < 5 %}

@@ -9,7 +9,7 @@
   align-items: center;
 }
 
-.flex-column,.flex-center{
+.flex-column,.flex-center, .flex-changer{
   display: flex; 
   flex-direction: column; }
 
@@ -183,6 +183,9 @@
     margin-top:20px;
   }
 
+  .flex-changer{
+    flex-direction: row;
+  }
   .dp {
     width:200px; 
     height:200px;
