@@ -11,10 +11,19 @@
 
 .flex-column,.flex-center, .flex-changer{
   display: flex; 
-  flex-direction: column; }
+  }
+
+.flex-column,.flex-center{
+    flex-direction: column; 
+  }
 
 .flex-center {  
-  align-items: center; }
+  align-items: center; 
+}
+
+.flex-changer{
+  flex-direction: row;
+}
 
 .dp {	
   border-radius: 50%;
@@ -184,7 +193,7 @@
   }
 
   .flex-changer{
-    flex-direction: row;
+    flex-direction: column;
   }
   .dp {
     width:200px; 
