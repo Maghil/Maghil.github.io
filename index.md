@@ -31,7 +31,7 @@
     </div>
     <div class="grand-parent">
       <div class="flex-changer heading">
-       <div>Work done(joules)</div>
+       <div class="heading-groups">Work done(joules)</div>
        <div><a href="{{site.baseurl}}/projects" class="btn btn-github">View all</a></div>
       </div>
       <div class="parent">
@@ -52,7 +52,7 @@
     </div>
     <div class="grand-parent">
     <div class="flex-changer heading">
-       <div>Certifications</div>
+       <div class="heading-groups">Certifications</div>
        <div><a href="{{site.baseurl}}/certificates" class="btn btn-github">View all</a></div>
     </div> 
       <div class="parent">
