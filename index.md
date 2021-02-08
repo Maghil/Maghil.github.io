@@ -31,7 +31,7 @@
     </div>
     <div class="grand-parent">
       <div class="flex-changer heading">
-        <div class="heading-groups">Experiences</div>
+        <div class="heading-groups">Experience</div>
         <div><a href="{{site.baseurl}}/projects" class="btn btn-github">View all</a></div>
       </div>
       <div class="parent">
@@ -78,17 +78,17 @@
     <div class="grand-parent">
       <div class="flex-changer heading">
         <div class="heading-groups">Certifications</div>
-        <div><a href="{{site.baseurl}}/certificates" class="btn btn-github">View all</a></div>
+        <div><a href="{{site.baseurl}}/certifications" class="btn btn-github">View all</a></div>
       </div> 
       <div class="parent">
-        {% for c in site.data.certificates %}
+        {% for c in site.data.certifications %}
           {% if {{forloop.index}} < 5 %}
             <div class="child">
               <div class="title">{{c.title}}</div>
               <hr class="seperator">
               <div>
-                <a href="{{site.baseurl}}/images/certificates/{{c.cImg}}" >
-                  <img class="certificate-img" src="{{site.baseurl}}/images/certificates/{{c.cImg}}" alt="Probably I didn't add">
+                <a href="{{site.baseurl}}/images/certifications/{{c.cImg}}" >
+                  <img class="certificate-img" src="{{site.baseurl}}/images/certifications/{{c.cImg}}" alt="Probably I didn't add">
                 </a>
               </div>
               <div class="details">
