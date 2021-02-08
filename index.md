@@ -32,7 +32,7 @@
     <div class="grand-parent">
       <div class="flex-changer heading">
         <div class="heading-groups">Experience</div>
-        <div><a href="{{site.baseurl}}/projects" class="btn btn-github">View all</a></div>
+        <div><a href="{{site.baseurl}}/experience" class="btn btn-github">View all</a></div>
       </div>
       <div class="parent">
         {% for p in site.data.jobs %}
