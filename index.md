@@ -29,10 +29,31 @@
         </div>
       </div>
     </div>
+    <div class="grand-parent"> #edit start
+      <div class="flex-changer heading">
+        <div class="heading-groups">Experiences</div>
+        <div><a href="{{site.baseurl}}/projects" class="btn btn-github">View all</a></div>
+      </div>
+      <div class="parent">
+        {% for p in site.data.jobs %}
+          {% if {{forloop.index}} < 5 %}  <!-- for loop starts from 1-->
+            <div class="child">
+              <div class="title">{{p.Jtitle}}</div>
+              <hr class="seperator">
+              <div><img class="project-img" src="{{site.baseurl}}/images/jobs/{{p.img}}" alt="Probably I didn't add"></div>
+              <div>company : {{p.company}}</div>   
+              <div>start : {{p.start}}</div>       
+              <div>end : {{p.end}}</div>           
+              <div>on progress : <a class="course" href="{{p.pURL}}">click</a></div>
+            </div>
+          {% endif %}
+        {% endfor %}
+      </div>
+    </div>  #edit end
     <div class="grand-parent">
       <div class="flex-changer heading">
-       <div class="heading-groups">Work done(joules)</div>
-       <div><a href="{{site.baseurl}}/projects" class="btn btn-github">View all</a></div>
+        <div class="heading-groups">Work done(joules)</div>
+        <div><a href="{{site.baseurl}}/projects" class="btn btn-github">View all</a></div>
       </div>
       <div class="parent">
         {% for p in site.data.projects %}
@@ -51,10 +72,10 @@
       </div>
     </div>
     <div class="grand-parent">
-    <div class="flex-changer heading">
-       <div class="heading-groups">Certifications</div>
-       <div><a href="{{site.baseurl}}/certificates" class="btn btn-github">View all</a></div>
-    </div> 
+      <div class="flex-changer heading">
+        <div class="heading-groups">Certifications</div>
+        <div><a href="{{site.baseurl}}/certificates" class="btn btn-github">View all</a></div>
+      </div> 
       <div class="parent">
         {% for c in site.data.certificates %}
           {% if {{forloop.index}} < 5 %}

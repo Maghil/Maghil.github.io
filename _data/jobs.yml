@@ -1,15 +1,17 @@
 - Jtitle : Software Test Engineer
   company : Across The Globe
   start : October 2020
-  ent : current
+  end : current
   description : >
     Automation of android testcases in appium
     API testing (postman and automation using Jenkins)
     Manual black box and white box testing
+  img : atg.jpg
 
 - Jtitle : QA Automation Engineer
   company : Banao Technologies
   start : December 2020
-  ent : January 2021
+  end : January 2021
   description : >
     Wrote appium scripts to load test and execute negative tests on one of their apps
+  img : banao.jpg
