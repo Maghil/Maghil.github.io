@@ -29,7 +29,7 @@
         </div>
       </div>
     </div>
-    <div class="grand-parent"> #edit start
+    <div class="grand-parent">
       <div class="flex-changer heading">
         <div class="heading-groups">Experiences</div>
         <div><a href="{{site.baseurl}}/projects" class="btn btn-github">View all</a></div>
@@ -41,15 +41,17 @@
               <div class="title">{{p.Jtitle}}</div>
               <hr class="seperator">
               <div><img class="project-img" src="{{site.baseurl}}/images/jobs/{{p.img}}" alt="Probably I didn't add"></div>
-              <div>company : {{p.company}}</div>   
-              <div>start : {{p.start}}</div>       
-              <div>end : {{p.end}}</div>           
-              <div>on progress : <a class="course" href="{{p.pURL}}">click</a></div>
+              <div class="details">
+                <div>company : {{p.company}}</div>   
+                <div>start : {{p.start}}</div>       
+                <div>end : {{p.end}}</div>           
+                <div>on progress : <a class="course" href="{{p.pURL}}">click</a></div>
+              </div>
             </div>
           {% endif %}
         {% endfor %}
       </div>
-    </div>  #edit end
+    </div>
     <div class="grand-parent">
       <div class="flex-changer heading">
         <div class="heading-groups">Work done(joules)</div>
@@ -62,10 +64,12 @@
               <div class="title">{{p.title}}</div>
               <hr class="seperator">
               <div><img class="project-img" src="{{site.baseurl}}/images/projects/{{p.pImg}}" alt="Probably I didn't add"></div>
-              <div>Domain : {{p.domain}}</div>
-              <div>Team : {{p.pTeam}}</div>   
-              <div>Duration : {{p.duration}}</div>                 
-              <div>Project URL : <a class="course" href="{{p.pURL}}">click</a></div>
+              <div class="details">
+                <div>Domain : {{p.domain}}</div>
+                <div>Team : {{p.pTeam}}</div>   
+                <div>Duration : {{p.duration}}</div>                 
+                <div>Project URL : <a class="course" href="{{p.pURL}}">click</a></div>
+              </div>
             </div>
           {% endif %}
         {% endfor %}
@@ -87,9 +91,11 @@
                   <img class="certificate-img" src="{{site.baseurl}}/images/certificates/{{c.cImg}}" alt="Probably I didn't add">
                 </a>
               </div>
-              <div>Issuer : {{c.org}}</div>
-              <div>Credential ID : {{c.cID}}</div>
-              <div>Credential URL : <a class="course" href="{{c.cURL}}">click</a></div>
+              <div class="details">
+                <div>Issuer : {{c.org}}</div>
+                <div>Credential ID : {{c.cID}}</div>
+                <div>Credential URL : <a class="course" href="{{c.cURL}}">click</a></div>
+              </div>
             </div>
           {% endif %}
         {% endfor %}
