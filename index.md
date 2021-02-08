@@ -45,7 +45,6 @@
                 <div>company : {{p.company}}</div>   
                 <div>start : {{p.start}}</div>       
                 <div>end : {{p.end}}</div>           
-                <div>on progress : <a class="course" href="{{p.pURL}}">click</a></div>
               </div>
             </div>
           {% endif %}
