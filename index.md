@@ -23,7 +23,7 @@
     <div class="grand-parent">
       <h1 class="heading">Skills</h1>
       <div class ="parent-margin">
-        <img class ="chart" src="{{site.baseurl}}/images/skillChart.png">
+        <img class ="chart" src="{{site.baseurl}}/images/skillChart.png" alt="image corrupted i guess">
         <div class ="center-hor">
           <h4>Googling is a product of amount of task and skill level</h4>
         </div>
@@ -115,10 +115,10 @@
       <h1 class="heading"> You have to see it for yourself </h1>
       <div class="parent-margin">      
         <div class="pill-child">
-          <img onclick="forget()" class="pill" src="{{site.baseurl}}/images/blue.png"><h1 class="pill-text">Forget</h1>
+          <img onclick="forget()" class="pill" src="{{site.baseurl}}/images/blue.png" alt="bluepill"><h1 class="pill-text">Forget</h1>
         </div>
         <div class="pill-child">
-          <img onclick="contact()" class="pill" src="{{site.baseurl}}/images/red.png"><h1 class="pill-text">Contact</h1>
+          <img onclick="contact()" class="pill" src="{{site.baseurl}}/images/red.png" alt="redpill"><h1 class="pill-text">Contact</h1>
         </div>
       </div>
     </div>
