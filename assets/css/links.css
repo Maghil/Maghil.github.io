@@ -1,0 +1,154 @@
+/* Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap');
+
+/* Variables */
+
+:root{
+    --link-background: #00E0EE;
+    --button-background:#000000;
+    --button-font-color:#00E0EE;
+}
+
+
+/* The first is the degree of the gradient
+the next two are the non-hover colors 
+rest of the colors are the hover colors
+the x variable is the position of the gradient to make a transition. */
+
+/* BE CAREFUL IT CAN BE MESSED UP */
+/* If moving then move it with hovers*/
+
+/* Instagram Button Gradient */
+a.button.instagram{
+    background:linear-gradient(90deg,#000,#000 50%,#405DE6 50%,#5851DB,#833AB4,#C13584,#E1306C,#FD1D1D,#F56040,#F77737,#FCAF45,#FFDC80,#FFDC80) var(--x, 0)/ 200%;
+}
+
+.insta-div:hover a.button.instagram{
+    --x:100%;
+}
+.insta-div:hover .insta-icon{
+    color:#fff;
+    font-size: 2em;
+    margin-top:0.25em;
+    right:12em;
+}
+
+.insta-icon:hover ~ .instagram{
+    color:#fff;
+}
+
+
+/* Website Button Gradient */
+a.button.website{
+    background:linear-gradient(90deg,#000,#000 50%,#232323 50%,#232323) var(--x, 0)/ 200%;
+}
+
+.web-div:hover a.button.website{
+    --x:100%;
+}
+
+.web-div:hover .web-icon{
+    color:#fff;
+    font-size: 2em;
+    margin-top:0.25em;
+    right:12em;
+}
+
+.web-icon:hover ~ .website{
+    color:#fff;
+}
+
+/* Buy Me a Coffee Button Gradient */
+a.button.bmac{
+    background:linear-gradient(90deg,#000,#000 50%,#FFDD00 50%,#FFDD00) var(--x, 0)/ 200%;
+}
+
+.bmac-div:hover a.button.bmac{
+    --x:100%;
+}
+
+.bmac-div:hover .bmac-icon{
+    color:#fff;
+    font-size: 2em;
+    margin-top:0.25em;
+    right:12em;
+}
+
+.bmac-icon:hover ~ .bmac{
+    color:#fff;
+}
+
+html,body{
+    background-color: var(--link-background);
+    width: 100vw;
+    height: 100vh;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Vertical and Horizontal Align */
+
+
+/* Basic css for the button */
+.links{
+    width: 30em;
+    position:relative;
+}
+
+a.button{
+    display:block;
+    padding:1em 3em;
+    border:0;
+    margin:0 0 2em 0;
+    box-sizing: border-box;
+    text-decoration:none;
+    text-transform:uppercase;
+    font-family:'Roboto',sans-serif;
+    background-color: #000;
+    color: var(--button-font-color);
+    text-align: center;
+    letter-spacing: .5em;
+    transition: all 0.15s;
+    
+}
+
+/* Transition */
+a.button:hover{
+    color:#fff;
+}
+
+/* On Click Slight detail */
+a.button:active{
+    color:#BBBBBB;
+}
+
+/* Responsive buttons  */
+@media all and (max-width:30em){
+     .links{
+        display:block;
+        margin:0.4em auto;
+    }
+    .insta-div:hover .insta-icon{
+        right: 0.5em;
+    }
+    .web-div:hover .web-icon{
+        right: 0.5em;
+    }
+    .bmac-div:hover .bmac-icon{
+        right: 0.5em;
+    }
+}
+
+/* Icons */
+
+.fab, .fas{
+    color: var(--button-font-color);
+    position: absolute;
+    margin-top:0.5em;
+    right: 0.5em;
+    font-size: 1em;
+    transition: all ease-in-out .15s;
+}
