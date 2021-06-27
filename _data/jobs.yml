@@ -1,11 +1,20 @@
+Jtitle : Development Engineer Level 1
+  company : Across The Globe
+  start : June 2021
+  end : Current
+  description : >
+    Intern stuff
+    just KT and reverse KT sessions
+  img : comcast.png
+
 - Jtitle : Software Test Engineer
   company : Across The Globe
   start : October 2020
-  end : current
+  end : June 2021
   description : >
     Automation of android testcases in appium
     API testing (postman and automation using Jenkins)
-    Manual black box and white box testing
+    Employed automation test report generation
   img : atg.jpg
 
 - Jtitle : QA Automation Engineer
