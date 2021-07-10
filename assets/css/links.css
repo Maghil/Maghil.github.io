@@ -172,7 +172,7 @@ a.button:active{
 
 /* Icons */
 
-.fab, .fas, .svg{
+.fab, .fas, svg{
     color: var(--button-font-color);
     position: absolute;
     margin-top:0.5em;
