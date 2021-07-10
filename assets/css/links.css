@@ -29,7 +29,7 @@ a.button.instagram{
 .insta-div:hover .insta-icon{
     color:#fff;
     font-size: 2em;
-    margin-top:0.25em;
+    margin-top:0.4em;
     right:12em;
 }
 
@@ -50,7 +50,7 @@ a.button.website{
 .web-div:hover .web-icon{
     color:#fff;
     font-size: 2em;
-    margin-top:0.25em;
+    margin-top:0.4em;
     right:12em;
 }
 
@@ -70,7 +70,7 @@ a.button.bmac{
 .bmac-div:hover .bmac-icon{
     color:#fff;
     font-size: 2em;
-    margin-top:0.25em;
+    margin-top:0.4em;
     right:12em;
 }
 
