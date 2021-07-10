@@ -148,7 +148,7 @@ a.button:active{
 
 /* Responsive buttons  */
 @media all and (max-width:30em){
-     .links{
+    .links{
         display:block;
         margin:0.4em 1em;
     }
