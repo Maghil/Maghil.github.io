@@ -11,7 +11,7 @@
       <div class="leftside block-head">
         <h1 class="heading-intro">Maghil Vannan M</h1>
         <div class="para flex-column">
-          <div><h2>Junior devops engineer</h2></div>
+          <div>JUNIOR DEVOPS ENGINEER</div>
           <div>Me + Pipeline = Faster, Reliable Pipeline</div>
           <div>Experience : Bash, Terraform, Ansible, Concourse, Python, AWS, Circle CI </div>
         </div>
