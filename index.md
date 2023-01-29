@@ -13,7 +13,7 @@
         <div class="para flex-column">
           <div>JUNIOR DEVOPS ENGINEER</div>
           <div>Me + Pipeline = Faster, Reliable Pipeline</div>
-          <div>If you have a pipeline, if no one else fix it, and if you can find me, maybe you can hire me</div>
+          <div>If you have a pipeline, if no one else can fix it, and if you can find me, maybe you can hire... me</div>
         </div>
       </div>
       <div class="dp-parent">
