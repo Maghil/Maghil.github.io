@@ -11,8 +11,8 @@
       <div class="leftside block-head">
         <h1 class="heading-intro">Maghil Vannan M</h1>
         <div class="para flex-column">
+          <div><h2>Junior devops engineer</h2></div>
           <div>Me + Pipeline = Faster, Reliable Pipeline</div>
-          <div>Junior devops engineer</div>
           <div>Experience : Bash, Terraform, Ansible, Concourse, Python, AWS, Circle CI </div>
         </div>
       </div>
@@ -42,9 +42,9 @@
               <hr class="seperator">
               <div><img class="project-img" src="{{site.baseurl}}/images/jobs/{{p.img}}" alt="Probably I didn't add"></div>
               <div class="details">
-                <div>company : {{p.company}}</div>   
-                <div>start : {{p.start}}</div>       
-                <div>end : {{p.end}}</div>           
+                <div>company : {{p.company}}</div>
+                <div>start : {{p.start}}</div>
+                <div>end : {{p.end}}</div>
               </div>
             </div>
           {% endif %}
@@ -65,8 +65,8 @@
               <div><img class="project-img" src="{{site.baseurl}}/images/projects/{{p.pImg}}" alt="Probably I didn't add"></div>
               <div class="details">
                 <div>Domain : {{p.domain}}</div>
-                <div>Team : {{p.pTeam}}</div>   
-                <div>Duration : {{p.duration}}</div>                 
+                <div>Team : {{p.pTeam}}</div>
+                <div>Duration : {{p.duration}}</div>
                 <div>Project URL : <a class="course" href="{{p.pURL}}">click</a></div>
               </div>
             </div>
@@ -78,7 +78,7 @@
       <div class="flex-changer heading">
         <div class="heading-groups">Certifications</div>
         <div><a href="{{site.baseurl}}/certifications" class="btn btn-github">View all</a></div>
-      </div> 
+      </div>
       <div class="parent">
         {% for c in site.data.certifications %}
           {% if {{forloop.index}} < 5 %}
@@ -113,7 +113,7 @@
     </div>
     <div class="grand-parent">
       <h1 class="heading"> You have to see it for yourself </h1>
-      <div class="parent-margin">      
+      <div class="parent-margin">
         <div class="pill-child">
           <img onclick="forget()" class="pill" src="{{site.baseurl}}/images/blue.png" alt="bluepill"><h1 class="pill-text">Forget</h1>
         </div>
