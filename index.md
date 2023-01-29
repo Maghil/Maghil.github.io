@@ -11,9 +11,9 @@
       <div class="leftside block-head">
         <h1 class="heading-intro">Maghil Vannan M</h1>
         <div class="para flex-column">
-          <div>Testing is important so why test it manually while you can automate it in cloud.</div>
-          <div>Seasoned automation engineer</div>
-          <div>budding site reliability engineer</div>
+          <div>Me + Your Pipeline = Faster + Reliable Pipeline</div>
+          <div>Junior devops engineer</div>
+          <div>Experience : Bash, Terraform, Ansible, Concourse, Python, AWS, Circle CI </div>
         </div>
       </div>
       <div class="dp-parent">
